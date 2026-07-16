@@ -1,76 +1,90 @@
 table dim_product
+	lineageTag: b6f95fb7-bf71-4e65-bcb0-a41580b6ed66
 
 	column stock_code
 		dataType: string
 		isKey
+		lineageTag: a5968f6d-13d1-4cb1-8da4-849d76e97d2c
 		summarizeBy: none
 		sourceColumn: stock_code
 
 	column description
 		dataType: string
+		lineageTag: e3acf5cf-8a01-4c53-8cff-4f936409cfb9
 		summarizeBy: none
 		sourceColumn: description
 
 	column category
 		dataType: string
+		lineageTag: d7c37526-da0e-4f0f-8255-c482798b848e
 		summarizeBy: none
 		sourceColumn: category
 
 	column units_sold
 		dataType: int64
 		formatString: #,0
+		lineageTag: 05d4386e-8877-4b36-af72-88c12fce9bfa
 		summarizeBy: sum
 		sourceColumn: units_sold
 
 	column revenue
 		dataType: double
 		formatString: £#,0.00
+		lineageTag: ecc18bb8-9de6-4918-af7c-65a09c7fa5e6
 		summarizeBy: sum
 		sourceColumn: revenue
 
 	column est_profit
 		dataType: double
 		formatString: £#,0.00
+		lineageTag: bd418d06-967a-447b-a2f0-678e8b2623c0
 		summarizeBy: sum
 		sourceColumn: est_profit
 
 	column n_orders
 		dataType: int64
 		formatString: #,0
+		lineageTag: 1a8aca10-0733-4de2-b7b1-221bd0f3957d
 		summarizeBy: sum
 		sourceColumn: n_orders
 
 	column first_sold
 		dataType: dateTime
 		formatString: General Date
+		lineageTag: 669a2c83-38c2-4606-a879-7f9cde6a1a71
 		summarizeBy: none
 		sourceColumn: first_sold
 
 	column last_sold
 		dataType: dateTime
 		formatString: General Date
+		lineageTag: 08446503-7580-4871-905e-03a531e383bf
 		summarizeBy: none
 		sourceColumn: last_sold
 
 	column sales_velocity
 		dataType: double
 		formatString: #,0.0
+		lineageTag: de71f9e0-d686-48bb-a61d-39bee56f1132
 		summarizeBy: average
 		sourceColumn: sales_velocity
 
 	column days_since_sale
 		dataType: int64
 		formatString: #,0
+		lineageTag: 828da167-3d94-48b5-9f74-89c82dea6222
 		summarizeBy: none
 		sourceColumn: days_since_sale
 
 	column movement
 		dataType: string
+		lineageTag: 639257d7-1864-41c7-b3a5-b9660bc2363a
 		summarizeBy: none
 		sourceColumn: movement
 
 	column restock_recommended
 		dataType: boolean
+		lineageTag: 7ca02ac2-9875-469a-a71e-da26196fdad8
 		summarizeBy: none
 		sourceColumn: restock_recommended
 
@@ -83,3 +97,4 @@ table dim_product
 					Typed = Table.TransformColumnTypes(PromotedHeaders, {{"stock_code", type text}, {"description", type text}, {"category", type text}, {"units_sold", Int64.Type}, {"revenue", type number}, {"est_profit", type number}, {"n_orders", Int64.Type}, {"first_sold", type datetime}, {"last_sold", type datetime}, {"sales_velocity", type number}, {"days_since_sale", Int64.Type}, {"movement", type text}, {"restock_recommended", type logical}}, "en-US")
 				in
 					Typed
+

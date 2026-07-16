@@ -9,3 +9,4 @@ relationship FactSales_DimCustomer
 relationship FactSales_DimDate
 	fromColumn: fact_sales.date
 	toColumn: dim_date.date
+

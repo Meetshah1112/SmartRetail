@@ -107,6 +107,7 @@ export function Customers() {
 
       <div className="grid cols-2">
         <ChartCard title="Segment Profiles" subtitle="Averages per segment from the RFM table">
+          <div className="table-scroll">
           <table className="data-table">
             <thead>
               <tr>
@@ -141,6 +142,7 @@ export function Customers() {
               ))}
             </tbody>
           </table>
+          </div>
           <div className="card-sub" style={{ marginTop: 10 }}>
             {segments.profile.map((s) => (
               <div key={s.name} style={{ padding: '2px 0' }}>

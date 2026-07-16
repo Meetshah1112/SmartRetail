@@ -1,25 +1,30 @@
 table forecast_monthly
+	lineageTag: 242acab7-0bad-4f43-a445-08451d38fe84
 
 	column month
 		dataType: dateTime
 		formatString: mmm yyyy
+		lineageTag: 28b82821-2799-4c30-ae37-c4694684de37
 		summarizeBy: none
 		sourceColumn: month
 
 	column sales
 		dataType: double
 		formatString: £#,0
+		lineageTag: 53158014-5325-4aea-8e18-b5e8cea15880
 		summarizeBy: sum
 		sourceColumn: sales
 
 	column fitted
 		dataType: double
 		formatString: £#,0
+		lineageTag: 932a4ef9-d562-4722-ae36-da6ea31ed363
 		summarizeBy: sum
 		sourceColumn: fitted
 
 	column kind
 		dataType: string
+		lineageTag: cbc07da4-1fc1-46cd-8fd4-0c0d8b1c41c4
 		summarizeBy: none
 		sourceColumn: kind
 
@@ -32,3 +37,4 @@ table forecast_monthly
 					Typed = Table.TransformColumnTypes(PromotedHeaders, {{"month", type date}, {"sales", type number}, {"fitted", type number}, {"kind", type text}}, "en-US")
 				in
 					Typed
+

@@ -1,108 +1,134 @@
 table fact_sales
+	lineageTag: dfb69617-8a5f-4112-80fb-6c4608791fda
 
 	measure 'Total Sales' = CALCULATE(SUM(fact_sales[revenue]), fact_sales[is_return] = FALSE())
 		formatString: £#,0
 		displayFolder: 1 Core KPIs
+		lineageTag: 25e40a63-f417-4a65-876a-daa666f540da
 
 	measure 'Total Profit' = CALCULATE(SUM(fact_sales[est_profit]), fact_sales[is_return] = FALSE())
 		formatString: £#,0
 		displayFolder: 1 Core KPIs
+		lineageTag: 18ff50ba-af37-474e-bf9c-dff2fa760a64
 
 	measure 'Profit Margin' = DIVIDE([Total Profit], [Total Sales])
 		formatString: 0.0%
 		displayFolder: 1 Core KPIs
+		lineageTag: 6b51f2a2-8850-409f-9de7-3768586aa925
 
 	measure 'Total Orders' = CALCULATE(DISTINCTCOUNT(fact_sales[invoice]), fact_sales[is_return] = FALSE())
 		formatString: #,0
 		displayFolder: 1 Core KPIs
+		lineageTag: 70a56836-74f1-4782-8d76-96b6a7752701
 
 	measure 'Total Customers' = CALCULATE(DISTINCTCOUNT(fact_sales[customer_id]), fact_sales[is_return] = FALSE())
 		formatString: #,0
 		displayFolder: 1 Core KPIs
+		lineageTag: 9e8a4073-3aee-4d36-9a4f-358c2512ef00
 
 	measure 'Total Quantity' = CALCULATE(SUM(fact_sales[quantity]), fact_sales[is_return] = FALSE())
 		formatString: #,0
 		displayFolder: 1 Core KPIs
+		lineageTag: 4e3c081a-448a-4d93-aeb3-42918faef79e
 
 	measure 'Avg Order Value' = DIVIDE([Total Sales], [Total Orders])
 		formatString: £#,0
 		displayFolder: 1 Core KPIs
+		lineageTag: 29f04c71-e120-42f3-8fd8-cccb1785f5bc
 
 	measure 'Avg Discount' = CALCULATE(AVERAGE(fact_sales[discount_pct]), fact_sales[is_return] = FALSE())
 		formatString: 0.0%
 		displayFolder: 1 Core KPIs
+		lineageTag: aee18cc2-f208-4396-9514-f81ba6d0250c
 
 	measure 'Sales LY' = CALCULATE([Total Sales], SAMEPERIODLASTYEAR(dim_date[date]))
 		formatString: £#,0
 		displayFolder: 2 Time Intelligence
+		lineageTag: 018826f1-183d-4319-8fc2-284daca780fd
 
 	measure 'Sales YoY %' = DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 		formatString: +0.0%;-0.0%;0.0%
 		displayFolder: 2 Time Intelligence
+		lineageTag: 4ee56e0a-a004-4b5a-a93e-73ac0647652f
 
 	measure 'Profit LY' = CALCULATE([Total Profit], SAMEPERIODLASTYEAR(dim_date[date]))
 		formatString: £#,0
 		displayFolder: 2 Time Intelligence
+		lineageTag: 2b685a05-69c6-481a-a2a1-a7521d8f8720
 
 	measure 'Profit YoY %' = DIVIDE([Total Profit] - [Profit LY], [Profit LY])
 		formatString: +0.0%;-0.0%;0.0%
 		displayFolder: 2 Time Intelligence
+		lineageTag: a0ada828-e938-4e3b-9dc4-ffb166afed34
 
 	measure 'Orders LY' = CALCULATE([Total Orders], SAMEPERIODLASTYEAR(dim_date[date]))
 		formatString: #,0
 		displayFolder: 2 Time Intelligence
+		lineageTag: 460909bc-adde-48ae-aadd-0254e07af47e
 
 	measure 'Orders YoY %' = DIVIDE([Total Orders] - [Orders LY], [Orders LY])
 		formatString: +0.0%;-0.0%;0.0%
 		displayFolder: 2 Time Intelligence
+		lineageTag: a02c5acc-b9a5-4659-a12f-069ba0b9bdb4
 
 	measure 'Customers LY' = CALCULATE([Total Customers], SAMEPERIODLASTYEAR(dim_date[date]))
 		formatString: #,0
 		displayFolder: 2 Time Intelligence
+		lineageTag: ddcc6705-ee1d-4319-9d52-d6b56fe21492
 
 	measure 'Customers YoY %' = DIVIDE([Total Customers] - [Customers LY], [Customers LY])
 		formatString: +0.0%;-0.0%;0.0%
 		displayFolder: 2 Time Intelligence
+		lineageTag: ae1d46e0-c76a-447b-95a7-e30ab274c713
 
 	measure 'Margin LY' = DIVIDE([Profit LY], [Sales LY])
 		formatString: 0.0%
 		displayFolder: 2 Time Intelligence
+		lineageTag: 60eea6e1-7e62-440c-b037-08e3b49b3785
 
 	measure 'Margin Change' = [Profit Margin] - [Margin LY]
 		formatString: +0.0%;-0.0%;0.0%
 		displayFolder: 2 Time Intelligence
+		lineageTag: 733d7726-a58f-44fa-ac71-580ba0a0808c
 
 	measure 'Returned Value' = ABS(CALCULATE(SUM(fact_sales[revenue]), fact_sales[is_return] = TRUE()))
 		formatString: £#,0
 		displayFolder: 3 Returns
+		lineageTag: d61d5836-3b8b-4a0b-9ad5-94560a51e454
 
 	measure 'Return Rate' = DIVIDE([Returned Value], [Total Sales])
 		formatString: 0.0%
 		displayFolder: 3 Returns
+		lineageTag: 56eb72fa-411e-4680-a0fc-8eba6a41b296
 
 	column invoice
 		dataType: string
+		lineageTag: 1c0494eb-8e3f-4eaa-8b14-bc920b5997a2
 		summarizeBy: none
 		sourceColumn: invoice
 
 	column invoice_date
 		dataType: dateTime
 		formatString: General Date
+		lineageTag: 9204661c-7bde-4583-9491-aaedbf846893
 		summarizeBy: none
 		sourceColumn: invoice_date
 
 	column stock_code
 		dataType: string
+		lineageTag: fc5d1895-8ca0-4589-a491-fdb9ce6e5c44
 		summarizeBy: none
 		sourceColumn: stock_code
 
 	column customer_id
 		dataType: int64
+		lineageTag: e6fe7bd9-bc8e-43ca-b1e3-897daee2fc69
 		summarizeBy: none
 		sourceColumn: customer_id
 
 	column country
 		dataType: string
+		lineageTag: 273e858e-3071-4e5e-bd7e-8fd8d7141bce
 		dataCategory: Country
 		summarizeBy: none
 		sourceColumn: country
@@ -110,41 +136,48 @@ table fact_sales
 	column quantity
 		dataType: int64
 		formatString: #,0
+		lineageTag: 26089c67-459b-4750-8f46-49d3191858c7
 		summarizeBy: sum
 		sourceColumn: quantity
 
 	column unit_price
 		dataType: double
 		formatString: £#,0.00
+		lineageTag: 04606858-ed8c-4468-81ed-cae30084af70
 		summarizeBy: none
 		sourceColumn: unit_price
 
 	column revenue
 		dataType: double
 		formatString: £#,0.00
+		lineageTag: f0c1c1a0-4e52-44a9-8c35-b771cbb5a0b8
 		summarizeBy: sum
 		sourceColumn: revenue
 
 	column discount_pct
 		dataType: double
 		formatString: 0.0%
+		lineageTag: c053ba9a-28f6-4b3f-a7b3-40ee55dbd844
 		summarizeBy: average
 		sourceColumn: discount_pct
 
 	column est_profit
 		dataType: double
 		formatString: £#,0.00
+		lineageTag: 5047f057-84a8-4153-bd76-079a6fb4f9f5
 		summarizeBy: sum
 		sourceColumn: est_profit
 
 	column is_return
 		dataType: boolean
+		lineageTag: 1cd08638-2c4c-495b-a3d1-0216154b858b
 		summarizeBy: none
 		sourceColumn: is_return
 
 	column date
 		dataType: dateTime
 		formatString: Long Date
+		lineageTag: de30cee5-c985-46ee-9278-225669d8fd79
 		summarizeBy: none
 		sourceColumn: date
 
@@ -157,3 +190,4 @@ table fact_sales
 					Typed = Table.TransformColumnTypes(PromotedHeaders, {{"invoice", type text}, {"invoice_date", type datetime}, {"stock_code", type text}, {"customer_id", Int64.Type}, {"country", type text}, {"quantity", Int64.Type}, {"unit_price", type number}, {"revenue", type number}, {"discount_pct", type number}, {"est_profit", type number}, {"is_return", type logical}, {"date", type date}}, "en-US")
 				in
 					Typed
+

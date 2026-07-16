@@ -141,6 +141,12 @@ button {
 }
 
 /* ---------- tables ---------- */
+/* Wide tables scroll inside their card instead of spilling out of it. */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .data-table {
   width: 100%;
   border-collapse: collapse;
@@ -194,6 +200,12 @@ button {
 }
 
 /* ---------- recharts polish ---------- */
+/* Tooltips must paint above card content (donut center labels) and neighboring cards. */
+.recharts-tooltip-wrapper {
+  z-index: 60 !important;
+  outline: none;
+}
+
 .recharts-default-tooltip {
   border-radius: 10px !important;
 }

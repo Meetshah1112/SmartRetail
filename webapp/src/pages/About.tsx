@@ -83,6 +83,7 @@ export function About() {
 
       <div className="grid cols-2">
         <ChartCard title="Hypothesis Tests" subtitle="All three reject H0 at α = 0.05">
+          <div className="table-scroll">
           <table className="data-table">
             <thead>
               <tr><th>Test</th><th className="num">p-value</th><th>Conclusion</th></tr>
@@ -97,9 +98,11 @@ export function About() {
               ))}
             </tbody>
           </table>
+          </div>
         </ChartCard>
 
         <ChartCard title="Machine Learning Summary">
+          <div className="table-scroll">
           <table className="data-table">
             <thead>
               <tr><th>Task</th><th>Algorithm</th><th className="num">Score</th></tr>
@@ -127,6 +130,7 @@ export function About() {
               </tr>
             </tbody>
           </table>
+          </div>
           <div className="card-sub" style={{ marginTop: 10 }}>
             Stack: Python · pandas · scikit-learn · SciPy · Power BI · React + Recharts. Generated{' '}
             {meta.generated}.

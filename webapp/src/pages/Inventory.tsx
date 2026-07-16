@@ -49,6 +49,7 @@ export function Inventory() {
         </ChartCard>
 
         <ChartCard title="Restock Recommendations" subtitle="Fast movers that sold within the last 14 days">
+          <div className="table-scroll">
           <table className="data-table">
             <thead>
               <tr>
@@ -69,6 +70,7 @@ export function Inventory() {
               ))}
             </tbody>
           </table>
+          </div>
         </ChartCard>
       </div>
     </div>

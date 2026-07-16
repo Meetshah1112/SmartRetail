@@ -1,31 +1,15 @@
 {
-  "config": "{\"version\":\"5.43\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\"}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true}",
+  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":{\"visual\":\"2.10.0\",\"report\":\"3.4.0\",\"page\":\"2.3.1\"}}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2}",
   "layoutOptimization": 0,
-  "resourcePackages": [
-    {
-      "resourcePackage": {
-        "disabled": false,
-        "items": [
-          {
-            "name": "CY24SU06",
-            "path": "BaseThemes/CY24SU06.json",
-            "type": 202
-          }
-        ],
-        "name": "SharedResources",
-        "type": 2
-      }
-    }
-  ],
   "sections": [
     {
       "config": "{}",
       "displayName": "Executive Dashboard",
       "displayOption": 1,
       "filters": "[]",
+      "height": 720.00,
       "name": "a1e2c3d4b5f6a7b8c9d0",
       "visualContainers": [],
-      "height": 720.00,
       "width": 1280.00
     },
     {
@@ -33,9 +17,10 @@
       "displayName": "Sales Dashboard",
       "displayOption": 1,
       "filters": "[]",
-      "name": "b2f3d4e5c6a7b8c9d0e1",
-      "visualContainers": [],
       "height": 720.00,
+      "name": "b2f3d4e5c6a7b8c9d0e1",
+      "ordinal": 1,
+      "visualContainers": [],
       "width": 1280.00
     },
     {
@@ -43,9 +28,10 @@
       "displayName": "Customer Dashboard",
       "displayOption": 1,
       "filters": "[]",
-      "name": "c3a4e5f6d7b8c9d0e1f2",
-      "visualContainers": [],
       "height": 720.00,
+      "name": "c3a4e5f6d7b8c9d0e1f2",
+      "ordinal": 2,
+      "visualContainers": [],
       "width": 1280.00
     },
     {
@@ -53,9 +39,10 @@
       "displayName": "Inventory Dashboard",
       "displayOption": 1,
       "filters": "[]",
-      "name": "d4b5f6a7e8c9d0e1f2a3",
-      "visualContainers": [],
       "height": 720.00,
+      "name": "d4b5f6a7e8c9d0e1f2a3",
+      "ordinal": 3,
+      "visualContainers": [],
       "width": 1280.00
     },
     {
@@ -63,9 +50,10 @@
       "displayName": "Profit Dashboard",
       "displayOption": 1,
       "filters": "[]",
-      "name": "e5c6a7b8f9d0e1f2a3b4",
-      "visualContainers": [],
       "height": 720.00,
+      "name": "e5c6a7b8f9d0e1f2a3b4",
+      "ordinal": 4,
+      "visualContainers": [],
       "width": 1280.00
     }
   ]

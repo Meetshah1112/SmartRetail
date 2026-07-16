@@ -56,11 +56,11 @@ export function Donut({ data, colors, height = 230, centerLabel, centerValue, ma
           </div>
         )}
       </div>
-      <ul style={{ listStyle: 'none', margin: 0, padding: 0, flex: 1, fontSize: 11.5 }}>
+      <ul style={{ listStyle: 'none', margin: 0, padding: 0, flex: '1 1 0', minWidth: 0, fontSize: 11.5 }}>
         {data.slice(0, maxLegend).map((entry, i) => (
           <li
             key={entry.name}
-            style={{ display: 'flex', alignItems: 'center', gap: 7, padding: '3.5px 0' }}
+            style={{ display: 'flex', alignItems: 'center', gap: 7, padding: '3.5px 0', minWidth: 0 }}
           >
             <span
               style={{
@@ -71,10 +71,19 @@ export function Donut({ data, colors, height = 230, centerLabel, centerValue, ma
                 flex: 'none',
               }}
             />
-            <span style={{ color: 'var(--ink-2)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+            <span
+              style={{
+                color: 'var(--ink-2)',
+                flex: '1 1 auto',
+                minWidth: 0,
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+              }}
+            >
               {entry.name}
             </span>
-            <span style={{ marginLeft: 'auto', fontWeight: 700, fontVariantNumeric: 'tabular-nums' }}>
+            <span style={{ flex: 'none', fontWeight: 700, fontVariantNumeric: 'tabular-nums' }}>
               {pct(entry.value / total)}
             </span>
           </li>

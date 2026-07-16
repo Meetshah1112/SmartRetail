@@ -102,6 +102,7 @@ export function Sales() {
           <HBars data={products.top.map((p) => ({ label: p.name, value: p.sales }))} />
         </ChartCard>
         <ChartCard title="Top Customers">
+          <div className="table-scroll">
           <table className="data-table">
             <thead>
               <tr><th>Customer</th><th>Segment</th><th className="num">Orders</th><th className="num">Sales</th></tr>
@@ -127,6 +128,7 @@ export function Sales() {
               ))}
             </tbody>
           </table>
+          </div>
         </ChartCard>
         <ChartCard title="International Markets" subtitle="Top countries outside the UK">
           <HBars

@@ -94,6 +94,7 @@ export function Forecast() {
         </ChartCard>
 
         <ChartCard title="Forecast values">
+          <div className="table-scroll">
           <table className="data-table">
             <thead>
               <tr><th>Month</th><th>Type</th><th className="num">Sales / Prediction</th></tr>
@@ -118,6 +119,7 @@ export function Forecast() {
               ))}
             </tbody>
           </table>
+          </div>
         </ChartCard>
       </div>
     </div>
