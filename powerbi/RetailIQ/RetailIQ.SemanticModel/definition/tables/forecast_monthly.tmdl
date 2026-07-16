@@ -1,0 +1,34 @@
+table forecast_monthly
+
+	column month
+		dataType: dateTime
+		formatString: mmm yyyy
+		summarizeBy: none
+		sourceColumn: month
+
+	column sales
+		dataType: double
+		formatString: £#,0
+		summarizeBy: sum
+		sourceColumn: sales
+
+	column fitted
+		dataType: double
+		formatString: £#,0
+		summarizeBy: sum
+		sourceColumn: fitted
+
+	column kind
+		dataType: string
+		summarizeBy: none
+		sourceColumn: kind
+
+	partition forecast_monthly = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "\forecast_monthly.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+					PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+					Typed = Table.TransformColumnTypes(PromotedHeaders, {{"month", type date}, {"sales", type number}, {"fitted", type number}, {"kind", type text}}, "en-US")
+				in
+					Typed

@@ -1,0 +1,17 @@
+# Data caches (regenerate with src/m00_load_data.py + pipeline)
+data/processed/
+powerbi/data/fact_sales.csv
+
+# Power BI local caches and user settings
+powerbi/RetailIQ/**/.pbi/
+powerbi/RetailIQ/**/cache.abf
+powerbi/RetailIQ/**/localSettings.json
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Webapp
+webapp/node_modules/
+webapp/dist/

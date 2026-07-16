@@ -1,0 +1,86 @@
+/* RetailIQ design tokens — purple analytics theme, light-first with dark mode */
+:root {
+  /* brand */
+  --accent: #6c4ee0;
+  --accent-strong: #5636d3;
+  --accent-soft: #ede9fc;
+  --accent-grad: linear-gradient(135deg, #7a5cf0 0%, #5b3fd6 100%);
+
+  /* semantic series colors */
+  --c-blue: #2e9bf0;
+  --c-orange: #f0862e;
+  --c-teal: #17b8a0;
+  --c-pink: #e04e7a;
+  --c-green: #3fae4e;
+  --c-violet: #8e7ce8;
+  --c-slate: #98a0b8;
+
+  /* status */
+  --up: #148f6d;
+  --up-bg: #e0f5ee;
+  --down: #d33e64;
+  --down-bg: #fce8ee;
+
+  /* surfaces */
+  --bg: #f2f0fa;
+  --bg-gradient: radial-gradient(1200px 500px at 80% -10%, #e4dcfa 0%, transparent 60%),
+                 radial-gradient(900px 420px at -10% 20%, #dfe9fb 0%, transparent 55%);
+  --surface: #ffffff;
+  --surface-2: #f7f6fc;
+  --border: #e5e1f2;
+  --border-strong: #d5cfeb;
+
+  /* ink */
+  --ink: #201b3d;
+  --ink-2: #56517a;
+  --ink-3: #8c87ab;
+  --ink-inverse: #f4f2ff;
+
+  /* sidebar */
+  --side-bg: #16113a;
+  --side-bg-2: #1e1750;
+  --side-ink: #b7b0dd;
+  --side-active: #7a5cf0;
+
+  /* elevation */
+  --shadow-1: 0 1px 2px rgba(32, 27, 61, 0.05), 0 4px 14px rgba(32, 27, 61, 0.06);
+  --shadow-2: 0 4px 10px rgba(32, 27, 61, 0.08), 0 12px 32px rgba(86, 54, 211, 0.10);
+
+  /* rhythm */
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --gap: 14px;
+  --pad: 16px;
+
+  --font: 'Inter Variable', 'Segoe UI', system-ui, sans-serif;
+
+  --dur-fast: 160ms;
+  --dur: 300ms;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-theme='dark'] {
+  --bg: #14101f;
+  --bg-gradient: radial-gradient(1200px 500px at 80% -10%, #2a1e56 0%, transparent 60%),
+                 radial-gradient(900px 420px at -10% 20%, #1b2647 0%, transparent 55%);
+  --surface: #1d1830;
+  --surface-2: #251f3d;
+  --border: #322a52;
+  --border-strong: #443a6b;
+
+  --ink: #efecff;
+  --ink-2: #b6b0d6;
+  --ink-3: #7d77a1;
+
+  --accent-soft: #2d2455;
+
+  --up-bg: #12352c;
+  --down-bg: #3c1a27;
+
+  --side-bg: #0f0b24;
+  --side-bg-2: #171040;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 14px rgba(0, 0, 0, 0.35);
+  --shadow-2: 0 4px 10px rgba(0, 0, 0, 0.45), 0 12px 32px rgba(0, 0, 0, 0.4);
+}

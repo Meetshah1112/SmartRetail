@@ -1,0 +1,76 @@
+.kpi {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.kpi::after {
+  content: '';
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: var(--kpi-tint, var(--accent));
+  opacity: 0.07;
+  transition: transform var(--dur) var(--ease);
+}
+
+.kpi:hover::after {
+  transform: scale(1.35);
+}
+
+.kpi .icon-chip {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: var(--kpi-tint, var(--accent));
+  box-shadow: 0 6px 14px color-mix(in srgb, var(--kpi-tint, var(--accent)) 40%, transparent);
+  flex: none;
+}
+
+.kpi .kpi-label {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+
+.kpi .kpi-value {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+
+.kpi .kpi-delta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1.5px 8px;
+  border-radius: 999px;
+  margin-top: 3px;
+}
+
+.kpi .kpi-delta.up {
+  color: var(--up);
+  background: var(--up-bg);
+}
+
+.kpi .kpi-delta.down {
+  color: var(--down);
+  background: var(--down-bg);
+}
+
+.kpi .kpi-delta .vs {
+  font-weight: 500;
+  color: var(--ink-3);
+}

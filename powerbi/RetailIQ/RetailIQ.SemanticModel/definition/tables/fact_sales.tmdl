@@ -1,0 +1,159 @@
+table fact_sales
+
+	measure 'Total Sales' = CALCULATE(SUM(fact_sales[revenue]), fact_sales[is_return] = FALSE())
+		formatString: £#,0
+		displayFolder: 1 Core KPIs
+
+	measure 'Total Profit' = CALCULATE(SUM(fact_sales[est_profit]), fact_sales[is_return] = FALSE())
+		formatString: £#,0
+		displayFolder: 1 Core KPIs
+
+	measure 'Profit Margin' = DIVIDE([Total Profit], [Total Sales])
+		formatString: 0.0%
+		displayFolder: 1 Core KPIs
+
+	measure 'Total Orders' = CALCULATE(DISTINCTCOUNT(fact_sales[invoice]), fact_sales[is_return] = FALSE())
+		formatString: #,0
+		displayFolder: 1 Core KPIs
+
+	measure 'Total Customers' = CALCULATE(DISTINCTCOUNT(fact_sales[customer_id]), fact_sales[is_return] = FALSE())
+		formatString: #,0
+		displayFolder: 1 Core KPIs
+
+	measure 'Total Quantity' = CALCULATE(SUM(fact_sales[quantity]), fact_sales[is_return] = FALSE())
+		formatString: #,0
+		displayFolder: 1 Core KPIs
+
+	measure 'Avg Order Value' = DIVIDE([Total Sales], [Total Orders])
+		formatString: £#,0
+		displayFolder: 1 Core KPIs
+
+	measure 'Avg Discount' = CALCULATE(AVERAGE(fact_sales[discount_pct]), fact_sales[is_return] = FALSE())
+		formatString: 0.0%
+		displayFolder: 1 Core KPIs
+
+	measure 'Sales LY' = CALCULATE([Total Sales], SAMEPERIODLASTYEAR(dim_date[date]))
+		formatString: £#,0
+		displayFolder: 2 Time Intelligence
+
+	measure 'Sales YoY %' = DIVIDE([Total Sales] - [Sales LY], [Sales LY])
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2 Time Intelligence
+
+	measure 'Profit LY' = CALCULATE([Total Profit], SAMEPERIODLASTYEAR(dim_date[date]))
+		formatString: £#,0
+		displayFolder: 2 Time Intelligence
+
+	measure 'Profit YoY %' = DIVIDE([Total Profit] - [Profit LY], [Profit LY])
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2 Time Intelligence
+
+	measure 'Orders LY' = CALCULATE([Total Orders], SAMEPERIODLASTYEAR(dim_date[date]))
+		formatString: #,0
+		displayFolder: 2 Time Intelligence
+
+	measure 'Orders YoY %' = DIVIDE([Total Orders] - [Orders LY], [Orders LY])
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2 Time Intelligence
+
+	measure 'Customers LY' = CALCULATE([Total Customers], SAMEPERIODLASTYEAR(dim_date[date]))
+		formatString: #,0
+		displayFolder: 2 Time Intelligence
+
+	measure 'Customers YoY %' = DIVIDE([Total Customers] - [Customers LY], [Customers LY])
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2 Time Intelligence
+
+	measure 'Margin LY' = DIVIDE([Profit LY], [Sales LY])
+		formatString: 0.0%
+		displayFolder: 2 Time Intelligence
+
+	measure 'Margin Change' = [Profit Margin] - [Margin LY]
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2 Time Intelligence
+
+	measure 'Returned Value' = ABS(CALCULATE(SUM(fact_sales[revenue]), fact_sales[is_return] = TRUE()))
+		formatString: £#,0
+		displayFolder: 3 Returns
+
+	measure 'Return Rate' = DIVIDE([Returned Value], [Total Sales])
+		formatString: 0.0%
+		displayFolder: 3 Returns
+
+	column invoice
+		dataType: string
+		summarizeBy: none
+		sourceColumn: invoice
+
+	column invoice_date
+		dataType: dateTime
+		formatString: General Date
+		summarizeBy: none
+		sourceColumn: invoice_date
+
+	column stock_code
+		dataType: string
+		summarizeBy: none
+		sourceColumn: stock_code
+
+	column customer_id
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: customer_id
+
+	column country
+		dataType: string
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: country
+
+	column quantity
+		dataType: int64
+		formatString: #,0
+		summarizeBy: sum
+		sourceColumn: quantity
+
+	column unit_price
+		dataType: double
+		formatString: £#,0.00
+		summarizeBy: none
+		sourceColumn: unit_price
+
+	column revenue
+		dataType: double
+		formatString: £#,0.00
+		summarizeBy: sum
+		sourceColumn: revenue
+
+	column discount_pct
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: average
+		sourceColumn: discount_pct
+
+	column est_profit
+		dataType: double
+		formatString: £#,0.00
+		summarizeBy: sum
+		sourceColumn: est_profit
+
+	column is_return
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: is_return
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: date
+
+	partition fact_sales = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "\fact_sales.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+					PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+					Typed = Table.TransformColumnTypes(PromotedHeaders, {{"invoice", type text}, {"invoice_date", type datetime}, {"stock_code", type text}, {"customer_id", Int64.Type}, {"country", type text}, {"quantity", Int64.Type}, {"unit_price", type number}, {"revenue", type number}, {"discount_pct", type number}, {"est_profit", type number}, {"is_return", type logical}, {"date", type date}}, "en-US")
+				in
+					Typed

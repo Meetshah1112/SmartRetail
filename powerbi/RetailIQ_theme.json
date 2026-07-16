@@ -1,0 +1,76 @@
+{
+  "name": "RetailIQ Purple",
+  "dataColors": [
+    "#6C4EE0",
+    "#2E9BF0",
+    "#F0862E",
+    "#2EBFA5",
+    "#8E7CE8",
+    "#E04E7A",
+    "#59C15D",
+    "#B04EE0",
+    "#4E6CE0",
+    "#E0B04E"
+  ],
+  "good": "#2EBFA5",
+  "neutral": "#F0862E",
+  "bad": "#E04E7A",
+  "maximum": "#6C4EE0",
+  "center": "#8E7CE8",
+  "minimum": "#E4DEFA",
+  "background": "#FFFFFF",
+  "foreground": "#1F1B33",
+  "tableAccent": "#6C4EE0",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#1F1B33"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#4A4566"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#1F1B33"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#1F1B33"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E6E3F2" } },
+            "radius": 12
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F4F2FB" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

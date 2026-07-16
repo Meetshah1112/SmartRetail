@@ -1,0 +1,14 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+
+	annotation PBI_QueryOrder = ["DataFolder","fact_sales","dim_product","dim_customer","dim_date","forecast_monthly"]
+
+	annotation __PBI_TimeIntelligenceEnabled = 0
+
+ref table fact_sales
+ref table dim_product
+ref table dim_customer
+ref table dim_date
+ref table forecast_monthly

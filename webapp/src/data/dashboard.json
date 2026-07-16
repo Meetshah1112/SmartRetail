@@ -1,0 +1,9767 @@
+{
+ "meta": {
+  "title": "RetailIQ \u2014 Retail Analytics & Business Intelligence",
+  "dataset": "Online Retail II (UCI) \u2014 1,067,371 raw transactions",
+  "window": "01 Dec 2009 \u2013 09 Dec 2011",
+  "generated": "16 Jul 2026 18:27",
+  "currency": "GBP"
+ },
+ "kpis": {
+  "total": {
+   "sales": 19347981.5,
+   "profit": 4948299.885500001,
+   "orders": 39511,
+   "customers": 5852,
+   "margin": 0.2557527711870099,
+   "aov": 489.6859482169522,
+   "returnedValue": 1462797.75,
+   "products": 4706,
+   "countries": 43,
+   "records": 1003182
+  },
+  "delta": {
+   "sales": 0.022170108359342522,
+   "profit": 0.2508967948244205,
+   "orders": -0.03971631205673759,
+   "customers": 0.012502948808681292,
+   "margin": 0.05145185950800035
+  },
+  "deltaWindow": "Dec 2010 \u2013 Nov 2011 vs previous 12 months"
+ },
+ "monthly": [
+  {
+   "month": "Dec 09",
+   "sales": 796442.0,
+   "profit": 172665.0,
+   "orders": 1666
+  },
+  {
+   "month": "Jan 10",
+   "sales": 608637.0,
+   "profit": 104688.0,
+   "orders": 1049
+  },
+  {
+   "month": "Feb 10",
+   "sales": 532137.0,
+   "profit": 81558.0,
+   "orders": 1188
+  },
+  {
+   "month": "Mar 10",
+   "sales": 746015.0,
+   "profit": 173614.0,
+   "orders": 1646
+  },
+  {
+   "month": "Apr 10",
+   "sales": 646233.0,
+   "profit": 166446.0,
+   "orders": 1435
+  },
+  {
+   "month": "May 10",
+   "sales": 643474.0,
+   "profit": 134251.0,
+   "orders": 1484
+  },
+  {
+   "month": "Jun 10",
+   "sales": 696439.0,
+   "profit": 184070.0,
+   "orders": 1612
+  },
+  {
+   "month": "Jul 10",
+   "sales": 632984.0,
+   "profit": 154811.0,
+   "orders": 1507
+  },
+  {
+   "month": "Aug 10",
+   "sales": 672141.0,
+   "profit": 87236.0,
+   "orders": 1402
+  },
+  {
+   "month": "Sep 10",
+   "sales": 865974.0,
+   "profit": 160486.0,
+   "orders": 1789
+  },
+  {
+   "month": "Oct 10",
+   "sales": 1094358.0,
+   "profit": 273941.0,
+   "orders": 2244
+  },
+  {
+   "month": "Nov 10",
+   "sales": 1412531.0,
+   "profit": 455532.0,
+   "orders": 2718
+  },
+  {
+   "month": "Dec 10",
+   "sales": 775572.0,
+   "profit": 240072.0,
+   "orders": 1550
+  },
+  {
+   "month": "Jan 11",
+   "sales": 593178.0,
+   "profit": 143985.0,
+   "orders": 1080
+  },
+  {
+   "month": "Feb 11",
+   "sales": 507783.0,
+   "profit": 143654.0,
+   "orders": 1093
+  },
+  {
+   "month": "Mar 11",
+   "sales": 689708.0,
+   "profit": 208627.0,
+   "orders": 1440
+  },
+  {
+   "month": "Apr 11",
+   "sales": 515355.0,
+   "profit": 137388.0,
+   "orders": 1235
+  },
+  {
+   "month": "May 11",
+   "sales": 739900.0,
+   "profit": 199546.0,
+   "orders": 1668
+  },
+  {
+   "month": "Jun 11",
+   "sales": 737559.0,
+   "profit": 213000.0,
+   "orders": 1525
+  },
+  {
+   "month": "Jul 11",
+   "sales": 688145.0,
+   "profit": 175097.0,
+   "orders": 1452
+  },
+  {
+   "month": "Aug 11",
+   "sales": 724197.0,
+   "profit": 203948.0,
+   "orders": 1339
+  },
+  {
+   "month": "Sep 11",
+   "sales": 1028314.0,
+   "profit": 277299.0,
+   "orders": 1818
+  },
+  {
+   "month": "Oct 11",
+   "sales": 1103311.0,
+   "profit": 276158.0,
+   "orders": 2005
+  },
+  {
+   "month": "Nov 11",
+   "sales": 1451576.0,
+   "profit": 469776.0,
+   "orders": 2751
+  }
+ ],
+ "categories": [
+  {
+   "name": "Home Decor",
+   "sales": 4483247.0,
+   "profit": 1128555.0,
+   "units": 1998611
+  },
+  {
+   "name": "Kitchen & Dining",
+   "sales": 3814808.0,
+   "profit": 958030.0,
+   "units": 1748298
+  },
+  {
+   "name": "Other",
+   "sales": 2683983.0,
+   "profit": 616834.0,
+   "units": 1829641
+  },
+  {
+   "name": "Bags & Accessories",
+   "sales": 2084611.0,
+   "profit": 600379.0,
+   "units": 1246964
+  },
+  {
+   "name": "Stationery & Craft",
+   "sales": 1319201.0,
+   "profit": 326787.0,
+   "units": 1172128
+  },
+  {
+   "name": "Candles & Fragrance",
+   "sales": 1280631.0,
+   "profit": 272830.0,
+   "units": 883164
+  },
+  {
+   "name": "Christmas & Seasonal",
+   "sales": 945451.0,
+   "profit": 275693.0,
+   "units": 623260
+  },
+  {
+   "name": "Garden & Outdoor",
+   "sales": 828338.0,
+   "profit": 231454.0,
+   "units": 329066
+  },
+  {
+   "name": "Vintage & Retro",
+   "sales": 633627.0,
+   "profit": 175848.0,
+   "units": 304275
+  },
+  {
+   "name": "Toys & Games",
+   "sales": 541061.0,
+   "profit": 161661.0,
+   "units": 340713
+  },
+  {
+   "name": "Lighting",
+   "sales": 435250.0,
+   "profit": 124519.0,
+   "units": 146928
+  },
+  {
+   "name": "Jewellery",
+   "sales": 297774.0,
+   "profit": 75709.0,
+   "units": 171957
+  }
+ ],
+ "products": {
+  "top": [
+   {
+    "name": "Regency Cakestand 3 Tier",
+    "sales": 330590.0,
+    "profit": 94274.0,
+    "units": 26478
+   },
+   {
+    "name": "White Hanging Heart T-Light Holder",
+    "sales": 260990.0,
+    "profit": 65521.0,
+    "units": 94658
+   },
+   {
+    "name": "Party Bunting",
+    "sales": 148318.0,
+    "profit": 50605.0,
+    "units": 28200
+   },
+   {
+    "name": "Jumbo Bag Red Retrospot",
+    "sales": 148073.0,
+    "profit": 42014.0,
+    "units": 77699
+   },
+   {
+    "name": "Assorted Colour Bird Ornament",
+    "sales": 129324.0,
+    "profit": 34587.0,
+    "units": 80082
+   },
+   {
+    "name": "Paper Chain Kit 50'S Christmas",
+    "sales": 117760.0,
+    "profit": 45312.0,
+    "units": 35084
+   },
+   {
+    "name": "Chilli Lights",
+    "sales": 80541.0,
+    "profit": 25652.0,
+    "units": 15841
+   },
+   {
+    "name": "Jumbo Bag Strawberry",
+    "sales": 69002.0,
+    "profit": 18414.0,
+    "units": 37061
+   },
+   {
+    "name": "Rabbit Night Light",
+    "sales": 66870.0,
+    "profit": 22114.0,
+    "units": 30739
+   },
+   {
+    "name": "Black Record Cover Frame",
+    "sales": 65189.0,
+    "profit": 15999.0,
+    "units": 18739
+   }
+  ],
+  "scatter": [
+   {
+    "name": "Danish Rose Folding Chair",
+    "sales": 1210.0,
+    "profit": 542.0,
+    "units": 120
+   },
+   {
+    "name": "Heart String Memo Holder Hanging",
+    "sales": 2235.0,
+    "profit": -385.0,
+    "units": 1269
+   },
+   {
+    "name": "Plasters In Tin Skulls",
+    "sales": 13013.0,
+    "profit": 4011.0,
+    "units": 7794
+   },
+   {
+    "name": "Feltcraft Cushion Rabbit",
+    "sales": 20901.0,
+    "profit": 6120.0,
+    "units": 5631
+   },
+   {
+    "name": "Brocante Shelf With Hooks",
+    "sales": 1920.0,
+    "profit": 612.0,
+    "units": 174
+   },
+   {
+    "name": "Set Of 20 Vintage Christmas Napkins",
+    "sales": 15276.0,
+    "profit": 5075.0,
+    "units": 17144
+   },
+   {
+    "name": "Large Hanging Glass+Zinc Lantern",
+    "sales": 896.0,
+    "profit": 269.0,
+    "units": 560
+   },
+   {
+    "name": "Paper Bunting Paisley Park",
+    "sales": 679.0,
+    "profit": 165.0,
+    "units": 249
+   },
+   {
+    "name": "Assorted Tutti Frutti  Fob Notebook",
+    "sales": 2049.0,
+    "profit": 726.0,
+    "units": 2225
+   },
+   {
+    "name": "Magic Tree -Paper Flowers",
+    "sales": 1738.0,
+    "profit": 634.0,
+    "units": 1856
+   },
+   {
+    "name": "Travel Card Wallet I Love London",
+    "sales": 2127.0,
+    "profit": 735.0,
+    "units": 4733
+   },
+   {
+    "name": "Felt Farm Animal Chicken",
+    "sales": 1200.0,
+    "profit": 384.0,
+    "units": 933
+   },
+   {
+    "name": "Set 20 Napkins Fairy Cakes Design",
+    "sales": 4194.0,
+    "profit": 1119.0,
+    "units": 5167
+   },
+   {
+    "name": "Scandinavian Reds Ribbons",
+    "sales": 9347.0,
+    "profit": 3586.0,
+    "units": 6584
+   },
+   {
+    "name": "Rustic Strawberry Jam Pot Large",
+    "sales": 577.0,
+    "profit": 171.0,
+    "units": 279
+   },
+   {
+    "name": "Set Of 6 Strawberry Chopsticks",
+    "sales": 3164.0,
+    "profit": 891.0,
+    "units": 2598
+   },
+   {
+    "name": "Bunny Wooden Painted With Flower",
+    "sales": 845.0,
+    "profit": 246.0,
+    "units": 1007
+   },
+   {
+    "name": "Pink Heart Shape Egg Frying Pan",
+    "sales": 14525.0,
+    "profit": 3145.0,
+    "units": 9853
+   },
+   {
+    "name": "Red Retrospot Small Milk Jug",
+    "sales": 12456.0,
+    "profit": 3430.0,
+    "units": 5057
+   },
+   {
+    "name": "Dolly Girl Mini Backpack",
+    "sales": 2992.0,
+    "profit": 846.0,
+    "units": 739
+   },
+   {
+    "name": "3 Hook Hanger Magic Garden",
+    "sales": 5123.0,
+    "profit": 1394.0,
+    "units": 2732
+   },
+   {
+    "name": "Parisienne Jewellery Drawer",
+    "sales": 6102.0,
+    "profit": 1834.0,
+    "units": 813
+   },
+   {
+    "name": "Large Round Cutglass Candlestick",
+    "sales": 1069.0,
+    "profit": 332.0,
+    "units": 156
+   },
+   {
+    "name": "Green Metal Box Army Supplies",
+    "sales": 3906.0,
+    "profit": 1209.0,
+    "units": 467
+   },
+   {
+    "name": "Set Of 60 Vintage Leaf Cake Cases",
+    "sales": 3273.0,
+    "profit": 909.0,
+    "units": 6139
+   },
+   {
+    "name": "Assorted Cheese Fridge Magnets",
+    "sales": 644.0,
+    "profit": 266.0,
+    "units": 831
+   },
+   {
+    "name": "Feltcraft Princess Lola Doll",
+    "sales": 11698.0,
+    "profit": 3494.0,
+    "units": 3125
+   },
+   {
+    "name": "Hand Open Shape Deco.White",
+    "sales": 2807.0,
+    "profit": 650.0,
+    "units": 883
+   },
+   {
+    "name": "36 Pencils Tube Red Retrospot",
+    "sales": 6020.0,
+    "profit": 1854.0,
+    "units": 4761
+   },
+   {
+    "name": "4 Purple Flock Dinner Candles",
+    "sales": 548.0,
+    "profit": -50.0,
+    "units": 335
+   },
+   {
+    "name": "Robot Birthday Card",
+    "sales": 3036.0,
+    "profit": 962.0,
+    "units": 7054
+   },
+   {
+    "name": "Clam Shell Small",
+    "sales": 726.0,
+    "profit": 215.0,
+    "units": 348
+   },
+   {
+    "name": "Bundle Of 3 Retro Note Books",
+    "sales": 3530.0,
+    "profit": 1057.0,
+    "units": 2141
+   },
+   {
+    "name": "Cake Stand Lovebird 2 Tier White",
+    "sales": 6885.0,
+    "profit": 1697.0,
+    "units": 745
+   },
+   {
+    "name": "Lunch Bag Alphabet Design",
+    "sales": 13326.0,
+    "profit": 4282.0,
+    "units": 7830
+   },
+   {
+    "name": "Door Mat Union Flag",
+    "sales": 24771.0,
+    "profit": 4978.0,
+    "units": 3775
+   },
+   {
+    "name": "Dinosaurs Water Transfer Tattoos",
+    "sales": 1636.0,
+    "profit": 502.0,
+    "units": 1907
+   },
+   {
+    "name": "Vintage Leaf Chopping Board",
+    "sales": 738.0,
+    "profit": 222.0,
+    "units": 149
+   },
+   {
+    "name": "Wash Bag Vintage Rose Paisley",
+    "sales": 4885.0,
+    "profit": 1513.0,
+    "units": 1889
+   },
+   {
+    "name": "Dolly Cabinet 3 Drawers",
+    "sales": 762.0,
+    "profit": 229.0,
+    "units": 51
+   },
+   {
+    "name": "Strawberry Charlotte Bag",
+    "sales": 20401.0,
+    "profit": 9515.0,
+    "units": 18296
+   },
+   {
+    "name": "Black Chunky Bead Bracelet W Strap",
+    "sales": 661.0,
+    "profit": 204.0,
+    "units": 73
+   },
+   {
+    "name": "Set 6 Paper Table Lantern Hearts",
+    "sales": 8559.0,
+    "profit": 2448.0,
+    "units": 2328
+   },
+   {
+    "name": "White Tall Porcelain T-Light Holder",
+    "sales": 3925.0,
+    "profit": 778.0,
+    "units": 1763
+   },
+   {
+    "name": "Bicycle Puncture Repair Kit",
+    "sales": 3882.0,
+    "profit": 1169.0,
+    "units": 1863
+   },
+   {
+    "name": "Herb Marker Basil",
+    "sales": 2199.0,
+    "profit": 617.0,
+    "units": 3478
+   },
+   {
+    "name": "Animals And Nature Wall Art",
+    "sales": 924.0,
+    "profit": 223.0,
+    "units": 267
+   },
+   {
+    "name": "Pack Of 20 Napkins Red Apples",
+    "sales": 4524.0,
+    "profit": 1186.0,
+    "units": 5610
+   },
+   {
+    "name": "Folding Umbrella Cream Polkadot",
+    "sales": 1076.0,
+    "profit": 272.0,
+    "units": 232
+   },
+   {
+    "name": "Tea Time Oven Glove",
+    "sales": 6823.0,
+    "profit": 2212.0,
+    "units": 5270
+   },
+   {
+    "name": "Set Of 72 Retro Spot Paper  Doilies",
+    "sales": 10949.0,
+    "profit": 3163.0,
+    "units": 7671
+   },
+   {
+    "name": "Set Of 4 Napkin Charms Instrument",
+    "sales": 674.0,
+    "profit": 160.0,
+    "units": 288
+   },
+   {
+    "name": "Wood Stamp Set Thank You",
+    "sales": 3037.0,
+    "profit": 304.0,
+    "units": 2366
+   },
+   {
+    "name": "Fairy Soap Soap Holder",
+    "sales": 3244.0,
+    "profit": 954.0,
+    "units": 1936
+   },
+   {
+    "name": "Gardenia 1 Wick Morris Boxed Candle",
+    "sales": 2406.0,
+    "profit": 558.0,
+    "units": 621
+   },
+   {
+    "name": "Eau De Nil Diner Wall Clock",
+    "sales": 2067.0,
+    "profit": 592.0,
+    "units": 248
+   },
+   {
+    "name": "Vintage Keepsake Box Pink Flower",
+    "sales": 807.0,
+    "profit": -4.0,
+    "units": 91
+   },
+   {
+    "name": "Pretty Hanging Quilted Hearts",
+    "sales": 1088.0,
+    "profit": 347.0,
+    "units": 1276
+   },
+   {
+    "name": "Set/4 White Retro Storage Cubes",
+    "sales": 43845.0,
+    "profit": 12300.0,
+    "units": 1128
+   },
+   {
+    "name": "Assorted Floral Secateurs",
+    "sales": 1389.0,
+    "profit": -2947.0,
+    "units": 3177
+   },
+   {
+    "name": "Flowers  Stickers",
+    "sales": 894.0,
+    "profit": 184.0,
+    "units": 1193
+   },
+   {
+    "name": "Jungle Popsicles Ice Lolly Moulds",
+    "sales": 1339.0,
+    "profit": 499.0,
+    "units": 960
+   },
+   {
+    "name": "Pink Jewelled Mirror Trinket Tray",
+    "sales": 619.0,
+    "profit": 150.0,
+    "units": 79
+   },
+   {
+    "name": "Man Flu Metal Sign",
+    "sales": 6909.0,
+    "profit": 1858.0,
+    "units": 3436
+   },
+   {
+    "name": "Wood Black Board Ant White Finish",
+    "sales": 56746.0,
+    "profit": 10294.0,
+    "units": 9831
+   },
+   {
+    "name": "Love Large Wood Letters",
+    "sales": 7362.0,
+    "profit": 2399.0,
+    "units": 556
+   },
+   {
+    "name": "Newspaper Stand",
+    "sales": 3508.0,
+    "profit": 254.0,
+    "units": 311
+   },
+   {
+    "name": "Christmas Lights 10 Santas",
+    "sales": 9466.0,
+    "profit": 2201.0,
+    "units": 1221
+   },
+   {
+    "name": "Recycled Acapulco Mat Red",
+    "sales": 3897.0,
+    "profit": 1263.0,
+    "units": 456
+   },
+   {
+    "name": "Rocking Horse Red Christmas",
+    "sales": 5135.0,
+    "profit": 1696.0,
+    "units": 5780
+   },
+   {
+    "name": "Stars Gift Tape",
+    "sales": 1199.0,
+    "profit": 131.0,
+    "units": 2348
+   },
+   {
+    "name": "Teatime Cake Tin With Handle",
+    "sales": 3083.0,
+    "profit": 1105.0,
+    "units": 284
+   },
+   {
+    "name": "Welcome  Wooden Block Letters",
+    "sales": 10314.0,
+    "profit": 3224.0,
+    "units": 1018
+   },
+   {
+    "name": "French Blue Metal Door Sign 6",
+    "sales": 1009.0,
+    "profit": 365.0,
+    "units": 737
+   },
+   {
+    "name": "36 Pencils Tube Red Spotty",
+    "sales": 4252.0,
+    "profit": 1281.0,
+    "units": 3395
+   },
+   {
+    "name": "French Style Wall Dresser",
+    "sales": 1740.0,
+    "profit": 428.0,
+    "units": 15
+   },
+   {
+    "name": "Daisies  Honeycomb Garland",
+    "sales": 2683.0,
+    "profit": 826.0,
+    "units": 1608
+   },
+   {
+    "name": "Door Mat Spotty Home Sweet Home",
+    "sales": 10563.0,
+    "profit": 702.0,
+    "units": 1772
+   },
+   {
+    "name": "Light Garland Butterfiles Pink",
+    "sales": 6168.0,
+    "profit": 1339.0,
+    "units": 1623
+   },
+   {
+    "name": "White Stitched Wall Clock",
+    "sales": 908.0,
+    "profit": 149.0,
+    "units": 867
+   },
+   {
+    "name": "Giant Medina Stamped Metal Bowl",
+    "sales": 2235.0,
+    "profit": 612.0,
+    "units": 233
+   },
+   {
+    "name": "Curious  Images Notebook Set",
+    "sales": 651.0,
+    "profit": -607.0,
+    "units": 423
+   },
+   {
+    "name": "Filigree Heart Bird White",
+    "sales": 1960.0,
+    "profit": 654.0,
+    "units": 1492
+   },
+   {
+    "name": "Regency Cakestand 3 Tier",
+    "sales": 330590.0,
+    "profit": 94274.0,
+    "units": 26478
+   },
+   {
+    "name": "Frying Pan Pink Polkadot",
+    "sales": 5751.0,
+    "profit": 1916.0,
+    "units": 1289
+   },
+   {
+    "name": "Zinc Heart Lattice Planter Bowl",
+    "sales": 714.0,
+    "profit": -980.0,
+    "units": 820
+   },
+   {
+    "name": "Metal Medina Lantern",
+    "sales": 2773.0,
+    "profit": 113.0,
+    "units": 298
+   },
+   {
+    "name": "Deluxe Sewing Kit",
+    "sales": 16971.0,
+    "profit": 6417.0,
+    "units": 2534
+   },
+   {
+    "name": "12 Pink Rose Peg Place Settings",
+    "sales": 1887.0,
+    "profit": 558.0,
+    "units": 1519
+   },
+   {
+    "name": "Blue Sweetheart Bracelet",
+    "sales": 875.0,
+    "profit": 262.0,
+    "units": 206
+   },
+   {
+    "name": "Bubblegum Ring Assorted",
+    "sales": 4997.0,
+    "profit": 1455.0,
+    "units": 12050
+   },
+   {
+    "name": "Gingham Rose Wrap",
+    "sales": 1446.0,
+    "profit": 411.0,
+    "units": 3519
+   },
+   {
+    "name": "Blossom Images Scrap Book Set",
+    "sales": 896.0,
+    "profit": -271.0,
+    "units": 496
+   },
+   {
+    "name": "White Beaded Garland String 20Light",
+    "sales": 6664.0,
+    "profit": 1993.0,
+    "units": 1051
+   },
+   {
+    "name": "Folding Umbrella Pinkwhite Polkadot",
+    "sales": 686.0,
+    "profit": 194.0,
+    "units": 142
+   },
+   {
+    "name": "Party Pizza Dish Pink Polkadot",
+    "sales": 527.0,
+    "profit": -244.0,
+    "units": 1296
+   },
+   {
+    "name": "French Blue Metal Door Sign, 3",
+    "sales": 645.0,
+    "profit": 207.0,
+    "units": 501
+   },
+   {
+    "name": "Black Tea,Coffee,Sugar Jars",
+    "sales": 1249.0,
+    "profit": 577.0,
+    "units": 492
+   },
+   {
+    "name": "Rattle Snake Eggs",
+    "sales": 1272.0,
+    "profit": -58.0,
+    "units": 1520
+   },
+   {
+    "name": "Rose Du Sud Drawstring Bag",
+    "sales": 1507.0,
+    "profit": 526.0,
+    "units": 417
+   },
+   {
+    "name": "Red Spotty Bowl",
+    "sales": 5660.0,
+    "profit": 1610.0,
+    "units": 4629
+   },
+   {
+    "name": "Assorted Tutti Frutti Heart Box",
+    "sales": 1461.0,
+    "profit": 510.0,
+    "units": 1087
+   },
+   {
+    "name": "Daisy Notebook",
+    "sales": 927.0,
+    "profit": -3236.0,
+    "units": 3604
+   },
+   {
+    "name": "Wooden Skittles Garden Set",
+    "sales": 14882.0,
+    "profit": 2947.0,
+    "units": 1069
+   },
+   {
+    "name": "Retrospot Candle  Small",
+    "sales": 924.0,
+    "profit": -423.0,
+    "units": 1139
+   },
+   {
+    "name": "200 Bendy Skull Straws",
+    "sales": 1433.0,
+    "profit": 333.0,
+    "units": 1257
+   },
+   {
+    "name": "Moroccan Tea Glass",
+    "sales": 9760.0,
+    "profit": 2636.0,
+    "units": 11973
+   },
+   {
+    "name": "Gift Bag Birthday",
+    "sales": 845.0,
+    "profit": 230.0,
+    "units": 1353
+   },
+   {
+    "name": "Blue  Spotty Egg Cup",
+    "sales": 1338.0,
+    "profit": 469.0,
+    "units": 994
+   },
+   {
+    "name": "Glitter Butterfly Clips",
+    "sales": 10940.0,
+    "profit": 3045.0,
+    "units": 4423
+   },
+   {
+    "name": "Black Love Bird Candle",
+    "sales": 503.0,
+    "profit": 128.0,
+    "units": 428
+   },
+   {
+    "name": "Flamingo Lights",
+    "sales": 4357.0,
+    "profit": 1225.0,
+    "units": 904
+   },
+   {
+    "name": "Egg Cup Henrietta Hen Cream",
+    "sales": 788.0,
+    "profit": 236.0,
+    "units": 630
+   },
+   {
+    "name": "S/16 Vintage Ivory Cutlery",
+    "sales": 5643.0,
+    "profit": 1859.0,
+    "units": 424
+   },
+   {
+    "name": "Mirrored Wall Art Poppies",
+    "sales": 556.0,
+    "profit": -165.0,
+    "units": 404
+   },
+   {
+    "name": "Blue 3 Piece Polkadot Cutlery Set",
+    "sales": 8868.0,
+    "profit": 2749.0,
+    "units": 2331
+   },
+   {
+    "name": "Illustrated Cat Bowl",
+    "sales": 5362.0,
+    "profit": 1981.0,
+    "units": 1894
+   },
+   {
+    "name": "Jumbo Bag Spaceboy Design",
+    "sales": 32434.0,
+    "profit": 9151.0,
+    "units": 17057
+   },
+   {
+    "name": "Recipe Box With Metal Heart",
+    "sales": 9076.0,
+    "profit": 2809.0,
+    "units": 1126
+   },
+   {
+    "name": "3 Gardenia Morris Boxed Candles",
+    "sales": 2390.0,
+    "profit": -136.0,
+    "units": 849
+   },
+   {
+    "name": "Tea Bag Plate Red Retrospot",
+    "sales": 4649.0,
+    "profit": 1479.0,
+    "units": 5327
+   },
+   {
+    "name": "Frying Pan Red Polkadot",
+    "sales": 4890.0,
+    "profit": 1290.0,
+    "units": 1210
+   },
+   {
+    "name": "Swallow Giant Tube Matches",
+    "sales": 2583.0,
+    "profit": 586.0,
+    "units": 1119
+   },
+   {
+    "name": "Folding Umbrella  Cream/Multi  Spot",
+    "sales": 1260.0,
+    "profit": -53.0,
+    "units": 379
+   },
+   {
+    "name": "Gingham Heart Wreath",
+    "sales": 648.0,
+    "profit": 183.0,
+    "units": 225
+   },
+   {
+    "name": "Antique Glass Heart Decoration",
+    "sales": 4149.0,
+    "profit": 1299.0,
+    "units": 2088
+   },
+   {
+    "name": "Antique All Glass Candlestick",
+    "sales": 4294.0,
+    "profit": 338.0,
+    "units": 2297
+   },
+   {
+    "name": "Card Christmas Village",
+    "sales": 2721.0,
+    "profit": 872.0,
+    "units": 6290
+   },
+   {
+    "name": "Set Of 16 Vintage Black Cutlery",
+    "sales": 2207.0,
+    "profit": 654.0,
+    "units": 174
+   },
+   {
+    "name": "Large Cake Stand  Hanging Strawbery",
+    "sales": 19121.0,
+    "profit": 4000.0,
+    "units": 2171
+   },
+   {
+    "name": "Blossom Images Gift Wrap Set",
+    "sales": 953.0,
+    "profit": 507.0,
+    "units": 982
+   },
+   {
+    "name": "Black Christmas Tree 120Cm",
+    "sales": 975.0,
+    "profit": -134.0,
+    "units": 268
+   },
+   {
+    "name": "Colourful Fishing Gnome",
+    "sales": 998.0,
+    "profit": -239.0,
+    "units": 297
+   },
+   {
+    "name": "Silver Hearts Table Decoration",
+    "sales": 1075.0,
+    "profit": 335.0,
+    "units": 1274
+   },
+   {
+    "name": "Bright Blues Ribbons",
+    "sales": 2928.0,
+    "profit": 887.0,
+    "units": 2332
+   },
+   {
+    "name": "Black Wine Glass",
+    "sales": 3196.0,
+    "profit": -1023.0,
+    "units": 3653
+   },
+   {
+    "name": "Balloon Water Bomb Pack Of 35",
+    "sales": 3399.0,
+    "profit": 894.0,
+    "units": 8523
+   },
+   {
+    "name": "Small Deco Jewellery Stand",
+    "sales": 2006.0,
+    "profit": 602.0,
+    "units": 243
+   },
+   {
+    "name": "Large Chunky Glass Roman Bowl",
+    "sales": 1179.0,
+    "profit": -234.0,
+    "units": 299
+   },
+   {
+    "name": "Embroidered Ribbon Reel Sally",
+    "sales": 977.0,
+    "profit": 281.0,
+    "units": 478
+   },
+   {
+    "name": "Blue Pull Back Racing Car",
+    "sales": 522.0,
+    "profit": 142.0,
+    "units": 989
+   },
+   {
+    "name": "Poppy'S Playhouse Kitchen",
+    "sales": 10161.0,
+    "profit": 4073.0,
+    "units": 4142
+   },
+   {
+    "name": "Hot Water Bottle Tea And Sympathy",
+    "sales": 59189.0,
+    "profit": 26902.0,
+    "units": 11677
+   },
+   {
+    "name": "Hanging Metal Bird Bath",
+    "sales": 3076.0,
+    "profit": 1012.0,
+    "units": 371
+   },
+   {
+    "name": "Tropical  Honeycomb Paper Garland",
+    "sales": 6517.0,
+    "profit": 1624.0,
+    "units": 2741
+   },
+   {
+    "name": "Magic Drawing Slate Purdey",
+    "sales": 3314.0,
+    "profit": 832.0,
+    "units": 8443
+   },
+   {
+    "name": "Swiss Roll Towel Pink  Spots",
+    "sales": 1914.0,
+    "profit": 456.0,
+    "units": 706
+   },
+   {
+    "name": "Assorted Farmyard Animals In Bucket",
+    "sales": 1469.0,
+    "profit": -827.0,
+    "units": 3859
+   },
+   {
+    "name": "Paper Chain Kit London",
+    "sales": 2454.0,
+    "profit": 693.0,
+    "units": 853
+   },
+   {
+    "name": "Travel Card Wallet Union Jack",
+    "sales": 1095.0,
+    "profit": 347.0,
+    "units": 2545
+   },
+   {
+    "name": "Fairy Cake Placemats",
+    "sales": 725.0,
+    "profit": 229.0,
+    "units": 189
+   },
+   {
+    "name": "Charlie+Lola Pink Hot Water Bottle",
+    "sales": 8624.0,
+    "profit": 1946.0,
+    "units": 3234
+   },
+   {
+    "name": "Squarecushion Cover Pink Union Jack",
+    "sales": 581.0,
+    "profit": -236.0,
+    "units": 173
+   },
+   {
+    "name": "Tea For One Polkadot",
+    "sales": 3104.0,
+    "profit": 1188.0,
+    "units": 644
+   },
+   {
+    "name": "Childrens Garden Gloves Pink",
+    "sales": 2749.0,
+    "profit": 1046.0,
+    "units": 1946
+   },
+   {
+    "name": "Money Box Housekeeping Design",
+    "sales": 1637.0,
+    "profit": 466.0,
+    "units": 1339
+   },
+   {
+    "name": "Childrens Dolly Girl Mug",
+    "sales": 2796.0,
+    "profit": 906.0,
+    "units": 1636
+   },
+   {
+    "name": "Green 3 Tier Glass Plate Stand",
+    "sales": 510.0,
+    "profit": -151.0,
+    "units": 74
+   },
+   {
+    "name": "White Sage Incense",
+    "sales": 588.0,
+    "profit": -130.0,
+    "units": 2440
+   },
+   {
+    "name": "Single Antique Rose Hook Ivory",
+    "sales": 2752.0,
+    "profit": 856.0,
+    "units": 1868
+   },
+   {
+    "name": "Wrap Vintage Leaf Design",
+    "sales": 2109.0,
+    "profit": 566.0,
+    "units": 5251
+   },
+   {
+    "name": "Blue/Brown Dots Ruffled Umbrella",
+    "sales": 2271.0,
+    "profit": -8.0,
+    "units": 547
+   },
+   {
+    "name": "Set Of 72 Pink Heart Paper Doilies",
+    "sales": 12913.0,
+    "profit": 4484.0,
+    "units": 8305
+   },
+   {
+    "name": "Set Of 3 Coloured  Flying Ducks",
+    "sales": 16218.0,
+    "profit": 4537.0,
+    "units": 3062
+   },
+   {
+    "name": "Set/12 Funky Felt Flower Peg In Bag",
+    "sales": 837.0,
+    "profit": 220.0,
+    "units": 420
+   },
+   {
+    "name": "Decorative Wicker Heart Large",
+    "sales": 3038.0,
+    "profit": 997.0,
+    "units": 1767
+   },
+   {
+    "name": "Black Small Glass Cake Stand",
+    "sales": 1142.0,
+    "profit": 311.0,
+    "units": 609
+   },
+   {
+    "name": "Pocket Bag Blue Paisley Red Spot",
+    "sales": 2105.0,
+    "profit": 845.0,
+    "units": 1440
+   },
+   {
+    "name": "Decorative Flore Bathroom Bottle",
+    "sales": 1326.0,
+    "profit": -179.0,
+    "units": 874
+   },
+   {
+    "name": "Gaolers Keys Decorative Garden",
+    "sales": 9201.0,
+    "profit": 2117.0,
+    "units": 2699
+   },
+   {
+    "name": "Jumbo Bag Apples",
+    "sales": 30451.0,
+    "profit": 8745.0,
+    "units": 14908
+   },
+   {
+    "name": "Ceramic Birdhouse Butterfly Small",
+    "sales": 1640.0,
+    "profit": 201.0,
+    "units": 697
+   },
+   {
+    "name": "Eucalyptus & Pinecone  Wreath",
+    "sales": 3110.0,
+    "profit": -530.0,
+    "units": 880
+   },
+   {
+    "name": "Retro Spot Small Tube Matches",
+    "sales": 3183.0,
+    "profit": 868.0,
+    "units": 2005
+   },
+   {
+    "name": "Hello Sailor Blue Soap Holder",
+    "sales": 834.0,
+    "profit": 278.0,
+    "units": 470
+   },
+   {
+    "name": "Traditional Knitting Nancy",
+    "sales": 13784.0,
+    "profit": 3706.0,
+    "units": 8726
+   },
+   {
+    "name": "Drawer Knob Ceramic Black",
+    "sales": 1449.0,
+    "profit": 455.0,
+    "units": 979
+   },
+   {
+    "name": "6 Chocolate Love Heart T-Lights",
+    "sales": 5804.0,
+    "profit": 1720.0,
+    "units": 2778
+   },
+   {
+    "name": "Vintage Photo Album Paris Days",
+    "sales": 769.0,
+    "profit": 298.0,
+    "units": 106
+   },
+   {
+    "name": "Retro Sport Party Bag + Sticker Set",
+    "sales": 5370.0,
+    "profit": 1392.0,
+    "units": 3444
+   },
+   {
+    "name": "60 Gold And Silver Fairy Cake Cases",
+    "sales": 2062.0,
+    "profit": 427.0,
+    "units": 4248
+   },
+   {
+    "name": "Scotties Childrens Apron",
+    "sales": 1229.0,
+    "profit": 349.0,
+    "units": 762
+   },
+   {
+    "name": "Porcelain Butterfly Oil Burner",
+    "sales": 4711.0,
+    "profit": 1582.0,
+    "units": 1515
+   },
+   {
+    "name": "Retro Spot Giant  Tube Matches",
+    "sales": 3035.0,
+    "profit": 723.0,
+    "units": 1295
+   },
+   {
+    "name": "Mini Playing Cards Spaceboy",
+    "sales": 1129.0,
+    "profit": 329.0,
+    "units": 2723
+   },
+   {
+    "name": "Assorted White Embossed China Mugs",
+    "sales": 1640.0,
+    "profit": 611.0,
+    "units": 700
+   },
+   {
+    "name": "Brocante Coat Rack",
+    "sales": 3943.0,
+    "profit": 627.0,
+    "units": 476
+   },
+   {
+    "name": "Feltcraft Doll Emily",
+    "sales": 10770.0,
+    "profit": 2979.0,
+    "units": 3773
+   },
+   {
+    "name": "Set 3 Wicker Log Baskets",
+    "sales": 7363.0,
+    "profit": 1805.0,
+    "units": 398
+   },
+   {
+    "name": "Painted Bird Assorted Christmas",
+    "sales": 713.0,
+    "profit": 228.0,
+    "units": 410
+   },
+   {
+    "name": "Recipe Box Retro Spot Design",
+    "sales": 2695.0,
+    "profit": 714.0,
+    "units": 959
+   },
+   {
+    "name": "Ivory Sweetheart Wire Letter Rack",
+    "sales": 2081.0,
+    "profit": 626.0,
+    "units": 554
+   },
+   {
+    "name": "Red/White Spot Picnic Bag",
+    "sales": 3165.0,
+    "profit": 841.0,
+    "units": 1125
+   },
+   {
+    "name": "Teatime Round Pencil Sharpener",
+    "sales": 537.0,
+    "profit": 246.0,
+    "units": 3461
+   },
+   {
+    "name": "Fairy Cake Notebook A5 Size",
+    "sales": 783.0,
+    "profit": 293.0,
+    "units": 823
+   },
+   {
+    "name": "Black And White Cat Bowl",
+    "sales": 3156.0,
+    "profit": 820.0,
+    "units": 1589
+   },
+   {
+    "name": "Enamel Measuring Jug Cream",
+    "sales": 9844.0,
+    "profit": 3061.0,
+    "units": 2280
+   },
+   {
+    "name": "Set/20 Woodland Paper Napkins",
+    "sales": 2058.0,
+    "profit": 398.0,
+    "units": 2790
+   },
+   {
+    "name": "Mini Cake Stand  Hanging Strawbery",
+    "sales": 8179.0,
+    "profit": 2491.0,
+    "units": 4925
+   },
+   {
+    "name": "Hand Open Shape Gold",
+    "sales": 2259.0,
+    "profit": 132.0,
+    "units": 715
+   },
+   {
+    "name": "Red Metal Box Top Secret",
+    "sales": 9118.0,
+    "profit": 2915.0,
+    "units": 1074
+   },
+   {
+    "name": "Tea Party Birthday Card",
+    "sales": 4806.0,
+    "profit": 1485.0,
+    "units": 11297
+   },
+   {
+    "name": "Set/6 Ivory Bird T-Light Candles",
+    "sales": 1585.0,
+    "profit": 338.0,
+    "units": 848
+   },
+   {
+    "name": "Danish Rose Umbrella Stand",
+    "sales": 676.0,
+    "profit": 252.0,
+    "units": 38
+   },
+   {
+    "name": "Ass Floral Print Multi Screwdriver",
+    "sales": 1406.0,
+    "profit": 567.0,
+    "units": 2853
+   },
+   {
+    "name": "Ridged Glass T-Light Holder",
+    "sales": 1105.0,
+    "profit": 304.0,
+    "units": 1760
+   },
+   {
+    "name": "Red Spotty Round Cake Tins",
+    "sales": 14646.0,
+    "profit": 4310.0,
+    "units": 1484
+   },
+   {
+    "name": "Set3 Book Box Green Gingham Flower",
+    "sales": 11763.0,
+    "profit": 3186.0,
+    "units": 2883
+   },
+   {
+    "name": "Coffee Mug Blue Paisley Design",
+    "sales": 4690.0,
+    "profit": 441.0,
+    "units": 2380
+   },
+   {
+    "name": "Glass Jar Digestive Biscuits",
+    "sales": 6499.0,
+    "profit": 2257.0,
+    "units": 2054
+   },
+   {
+    "name": "String Of 20 Rose Lights",
+    "sales": 3249.0,
+    "profit": 812.0,
+    "units": 273
+   },
+   {
+    "name": "Silk Purse Russian Doll Pink",
+    "sales": 1531.0,
+    "profit": 452.0,
+    "units": 460
+   },
+   {
+    "name": "Bread Bin, Diner Style, Ivory",
+    "sales": 683.0,
+    "profit": 149.0,
+    "units": 45
+   },
+   {
+    "name": "Black Grand Baroque Photo Frame",
+    "sales": 1426.0,
+    "profit": -632.0,
+    "units": 692
+   },
+   {
+    "name": "Set Of 6 T-Lights Cacti",
+    "sales": 2884.0,
+    "profit": 776.0,
+    "units": 1021
+   },
+   {
+    "name": "Calendar In Season Design",
+    "sales": 2957.0,
+    "profit": 733.0,
+    "units": 1077
+   },
+   {
+    "name": "Ceramic Plate Strawberry Design",
+    "sales": 4012.0,
+    "profit": 820.0,
+    "units": 3060
+   },
+   {
+    "name": "Bathroom Set Love Heart Design",
+    "sales": 1508.0,
+    "profit": 257.0,
+    "units": 606
+   },
+   {
+    "name": "Ivory Hanging Decoration  Heart",
+    "sales": 9359.0,
+    "profit": 2914.0,
+    "units": 10832
+   },
+   {
+    "name": "Glitter Heart Decoration",
+    "sales": 1089.0,
+    "profit": -380.0,
+    "units": 2469
+   },
+   {
+    "name": "Clear Drawer Knob Acrylic Edwardian",
+    "sales": 10117.0,
+    "profit": 3585.0,
+    "units": 7465
+   },
+   {
+    "name": "Set/3 Polka Dot Stacking Tins",
+    "sales": 1332.0,
+    "profit": 417.0,
+    "units": 264
+   },
+   {
+    "name": "Retrospot Candle  Medium",
+    "sales": 796.0,
+    "profit": -297.0,
+    "units": 744
+   },
+   {
+    "name": "Bohemian Collage Stationery Set",
+    "sales": 1928.0,
+    "profit": 28.0,
+    "units": 1103
+   },
+   {
+    "name": "Premium Church Candle",
+    "sales": 530.0,
+    "profit": 141.0,
+    "units": 265
+   },
+   {
+    "name": "Cosy Slipper Shoes Large Red",
+    "sales": 698.0,
+    "profit": 283.0,
+    "units": 201
+   },
+   {
+    "name": "Assorted Colour Set 6 Teaspoons",
+    "sales": 1232.0,
+    "profit": 435.0,
+    "units": 268
+   },
+   {
+    "name": "Pack Of 12 Suki Tissues",
+    "sales": 7896.0,
+    "profit": 3412.0,
+    "units": 22086
+   },
+   {
+    "name": "Pink Vintage Paisley Picnic Bag",
+    "sales": 9088.0,
+    "profit": 2000.0,
+    "units": 4116
+   },
+   {
+    "name": "Moroccan Beaten Metal Dish Large",
+    "sales": 947.0,
+    "profit": -35.0,
+    "units": 110
+   },
+   {
+    "name": "Doormat Hearts",
+    "sales": 38428.0,
+    "profit": 4893.0,
+    "units": 6026
+   },
+   {
+    "name": "Lunch Box With Cutlery Retrospot",
+    "sales": 14349.0,
+    "profit": 4214.0,
+    "units": 5678
+   },
+   {
+    "name": "Regency Sugar Tongs",
+    "sales": 4515.0,
+    "profit": 1322.0,
+    "units": 1832
+   },
+   {
+    "name": "Assorted Tutti Frutti Large Purse",
+    "sales": 1899.0,
+    "profit": 653.0,
+    "units": 848
+   },
+   {
+    "name": "Mini Playing Cards Dolly Girl",
+    "sales": 1163.0,
+    "profit": 391.0,
+    "units": 2627
+   },
+   {
+    "name": "Abc Treasure Book Box",
+    "sales": 4693.0,
+    "profit": 1283.0,
+    "units": 2165
+   },
+   {
+    "name": "Pink Paisley Cushion Cover",
+    "sales": 1230.0,
+    "profit": -569.0,
+    "units": 432
+   },
+   {
+    "name": "Blue Yellow Flower Piggy Bank",
+    "sales": 947.0,
+    "profit": -645.0,
+    "units": 489
+   },
+   {
+    "name": "Small Oriental Blue Folding Stool",
+    "sales": 615.0,
+    "profit": 230.0,
+    "units": 282
+   },
+   {
+    "name": "Beach Hut Design Blackboard",
+    "sales": 1314.0,
+    "profit": 58.0,
+    "units": 422
+   },
+   {
+    "name": "Pink Painted Kashmiri Table",
+    "sales": 630.0,
+    "profit": 284.0,
+    "units": 11
+   },
+   {
+    "name": "Pantry Chopping Board",
+    "sales": 5868.0,
+    "profit": 1870.0,
+    "units": 1154
+   },
+   {
+    "name": "Hot Stuff Hot Water Bottle",
+    "sales": 2008.0,
+    "profit": 449.0,
+    "units": 594
+   },
+   {
+    "name": "Mint Green Rose Towel",
+    "sales": 1593.0,
+    "profit": 605.0,
+    "units": 420
+   },
+   {
+    "name": "White Hearts Wire Plant Pot Holder",
+    "sales": 963.0,
+    "profit": 269.0,
+    "units": 343
+   },
+   {
+    "name": "Metal Shelf With Rail",
+    "sales": 3452.0,
+    "profit": 1203.0,
+    "units": 378
+   },
+   {
+    "name": "Black Love Bird T-Light Holder",
+    "sales": 615.0,
+    "profit": -24.0,
+    "units": 364
+   },
+   {
+    "name": "Skulls Storage Box Small",
+    "sales": 999.0,
+    "profit": 254.0,
+    "units": 507
+   },
+   {
+    "name": "Frog Candle",
+    "sales": 896.0,
+    "profit": 23.0,
+    "units": 998
+   },
+   {
+    "name": "Zinc Herb Garden Container",
+    "sales": 3517.0,
+    "profit": 1084.0,
+    "units": 556
+   },
+   {
+    "name": "Boys Alphabet Iron On Patches",
+    "sales": 4350.0,
+    "profit": -1758.0,
+    "units": 20775
+   },
+   {
+    "name": "3 White Choc Morris Boxed Candles",
+    "sales": 2615.0,
+    "profit": -112.0,
+    "units": 1184
+   },
+   {
+    "name": "Mirror Mosaic Goblet Candle Holder",
+    "sales": 1295.0,
+    "profit": -745.0,
+    "units": 692
+   },
+   {
+    "name": "Wake Up Cockerel Calendar Sign",
+    "sales": 571.0,
+    "profit": 222.0,
+    "units": 133
+   },
+   {
+    "name": "5 Hook Hanger Red Magic Toadstool",
+    "sales": 6951.0,
+    "profit": 1724.0,
+    "units": 4526
+   },
+   {
+    "name": "Purple Green Flower Piggy Bank",
+    "sales": 683.0,
+    "profit": -492.0,
+    "units": 361
+   },
+   {
+    "name": "Bunny Egg Garland",
+    "sales": 658.0,
+    "profit": 247.0,
+    "units": 1400
+   },
+   {
+    "name": "Pack Of 6 Skull Paper Plates",
+    "sales": 5820.0,
+    "profit": 1162.0,
+    "units": 7829
+   },
+   {
+    "name": "Felt Farm Animal Rabbit",
+    "sales": 1291.0,
+    "profit": 117.0,
+    "units": 1342
+   },
+   {
+    "name": "Strawberry Fairy Cake Teapot",
+    "sales": 11463.0,
+    "profit": 3542.0,
+    "units": 2286
+   },
+   {
+    "name": "Rex Cash+Carry Jumbo Shopper",
+    "sales": 3802.0,
+    "profit": 1141.0,
+    "units": 4002
+   },
+   {
+    "name": "3D Sheet Of Cat Stickers",
+    "sales": 1119.0,
+    "profit": 387.0,
+    "units": 1231
+   },
+   {
+    "name": "Sweetheart Carry-All Basket",
+    "sales": 2431.0,
+    "profit": 753.0,
+    "units": 282
+   },
+   {
+    "name": "Doormat Peace On Earth Blue",
+    "sales": 4757.0,
+    "profit": -57.0,
+    "units": 865
+   },
+   {
+    "name": "Mistletoe Heart Wreath Green",
+    "sales": 3676.0,
+    "profit": 1114.0,
+    "units": 882
+   },
+   {
+    "name": "Wall Art Work Rest And Play",
+    "sales": 902.0,
+    "profit": 174.0,
+    "units": 210
+   },
+   {
+    "name": "Spaceboy Wall Art",
+    "sales": 886.0,
+    "profit": 83.0,
+    "units": 306
+   },
+   {
+    "name": "Make Your Own Monsoon Card Kit",
+    "sales": 4245.0,
+    "profit": 1117.0,
+    "units": 1515
+   },
+   {
+    "name": "English Rose Spirit Level",
+    "sales": 1113.0,
+    "profit": -38.0,
+    "units": 1028
+   },
+   {
+    "name": "White Picnic Barbecue Bucket",
+    "sales": 517.0,
+    "profit": 73.0,
+    "units": 59
+   },
+   {
+    "name": "Gold Washbag",
+    "sales": 528.0,
+    "profit": -3237.0,
+    "units": 1823
+   },
+   {
+    "name": "Metal 4 Hook Hanger French Chateau",
+    "sales": 15412.0,
+    "profit": 5033.0,
+    "units": 5026
+   },
+   {
+    "name": "Christmas Craft Little Friends",
+    "sales": 12382.0,
+    "profit": 4835.0,
+    "units": 5134
+   },
+   {
+    "name": "Blue Scandinavian Paisley Wrap",
+    "sales": 1318.0,
+    "profit": 384.0,
+    "units": 3175
+   },
+   {
+    "name": "Christmas Tree Hanging Gold",
+    "sales": 719.0,
+    "profit": 254.0,
+    "units": 799
+   },
+   {
+    "name": "Reindeer Heart Decoration Silver",
+    "sales": 1363.0,
+    "profit": 471.0,
+    "units": 1536
+   },
+   {
+    "name": "Glass Twist Bon Bon Jar",
+    "sales": 575.0,
+    "profit": 169.0,
+    "units": 74
+   },
+   {
+    "name": "Roll Wrap Vintage Christmas",
+    "sales": 4343.0,
+    "profit": 1524.0,
+    "units": 3221
+   },
+   {
+    "name": "Wrap Monster Fun",
+    "sales": 906.0,
+    "profit": 272.0,
+    "units": 2157
+   },
+   {
+    "name": "Wrap, Billboard Fonts Design",
+    "sales": 1126.0,
+    "profit": 276.0,
+    "units": 2891
+   },
+   {
+    "name": "Beach Hut Key Cabinet",
+    "sales": 1366.0,
+    "profit": -954.0,
+    "units": 435
+   },
+   {
+    "name": "Sweetheart Wire Fruit Bowl",
+    "sales": 2021.0,
+    "profit": 515.0,
+    "units": 253
+   },
+   {
+    "name": "Silver Skull Hot Water Bottle",
+    "sales": 854.0,
+    "profit": 319.0,
+    "units": 204
+   },
+   {
+    "name": "Decoration Hen On Nest, Hanging",
+    "sales": 2829.0,
+    "profit": 661.0,
+    "units": 1877
+   },
+   {
+    "name": "Door Mat Fairy Cake",
+    "sales": 11532.0,
+    "profit": 1922.0,
+    "units": 1727
+   },
+   {
+    "name": "Weekend Bag Vintage Rose Paisley",
+    "sales": 7875.0,
+    "profit": 2247.0,
+    "units": 946
+   },
+   {
+    "name": "Jardin Etched Glass Small Bell Jar",
+    "sales": 599.0,
+    "profit": 108.0,
+    "units": 118
+   },
+   {
+    "name": "Set/3 Pot Plant Candles",
+    "sales": 1185.0,
+    "profit": 434.0,
+    "units": 197
+   },
+   {
+    "name": "Party Invites Spaceman",
+    "sales": 876.0,
+    "profit": 249.0,
+    "units": 1053
+   },
+   {
+    "name": "Doormat Vintage Leaf",
+    "sales": 4122.0,
+    "profit": 984.0,
+    "units": 564
+   },
+   {
+    "name": "Antique Silver Tea Glass Engraved",
+    "sales": 18744.0,
+    "profit": 4910.0,
+    "units": 15810
+   },
+   {
+    "name": "Red Retrospot Shopping Bag",
+    "sales": 1626.0,
+    "profit": 506.0,
+    "units": 627
+   },
+   {
+    "name": "Multi Colour Silver T-Light Holder",
+    "sales": 17747.0,
+    "profit": 4892.0,
+    "units": 21605
+   },
+   {
+    "name": "Wall Art Big Love",
+    "sales": 5538.0,
+    "profit": 790.0,
+    "units": 976
+   },
+   {
+    "name": "Tumbler New England",
+    "sales": 551.0,
+    "profit": -905.0,
+    "units": 1261
+   },
+   {
+    "name": "Beware Of The Cat Metal Sign",
+    "sales": 15167.0,
+    "profit": 4095.0,
+    "units": 9360
+   },
+   {
+    "name": "Set Of 4 Knick Knack Tins London",
+    "sales": 7772.0,
+    "profit": 2400.0,
+    "units": 1849
+   },
+   {
+    "name": "Pink Owl Soft Toy",
+    "sales": 5034.0,
+    "profit": 1465.0,
+    "units": 1728
+   },
+   {
+    "name": "Pink Floral Feltcraft Shoulder Bag",
+    "sales": 9387.0,
+    "profit": 2851.0,
+    "units": 2490
+   },
+   {
+    "name": "Jardin Etched Glass Cheese Dish",
+    "sales": 575.0,
+    "profit": -536.0,
+    "units": 219
+   },
+   {
+    "name": "Measuring Tape Russian Doll Pink",
+    "sales": 552.0,
+    "profit": 176.0,
+    "units": 182
+   },
+   {
+    "name": "Chick Grey Hot Water Bottle",
+    "sales": 18171.0,
+    "profit": 7101.0,
+    "units": 4584
+   },
+   {
+    "name": "Cream Sweetheart Wall Cabinet",
+    "sales": 8202.0,
+    "profit": 1623.0,
+    "units": 496
+   },
+   {
+    "name": "Assorted Colour T-Light Holder",
+    "sales": 4199.0,
+    "profit": 1155.0,
+    "units": 6041
+   },
+   {
+    "name": "Midnight Glamour Scarf Knitting Kit",
+    "sales": 1024.0,
+    "profit": -64.0,
+    "units": 632
+   },
+   {
+    "name": "Doormat Spotty Home Sweet Home",
+    "sales": 21414.0,
+    "profit": 5737.0,
+    "units": 2817
+   },
+   {
+    "name": "Travel Card Wallet Vintage Leaf",
+    "sales": 578.0,
+    "profit": 182.0,
+    "units": 1350
+   },
+   {
+    "name": "Skulls  Design  Cotton Tote Bag",
+    "sales": 1891.0,
+    "profit": 45.0,
+    "units": 1172
+   },
+   {
+    "name": "Vintage Bead Pink Scarf",
+    "sales": 1058.0,
+    "profit": 527.0,
+    "units": 459
+   },
+   {
+    "name": "Ladybird + Bee Raffia Food Cover",
+    "sales": 4078.0,
+    "profit": 1306.0,
+    "units": 1056
+   },
+   {
+    "name": "Key Fob , Front  Door",
+    "sales": 3408.0,
+    "profit": 970.0,
+    "units": 5359
+   },
+   {
+    "name": "Blue Kashmiri Coffee Table",
+    "sales": 1360.0,
+    "profit": 509.0,
+    "units": 27
+   },
+   {
+    "name": "Large Red Babushka Notebook",
+    "sales": 3070.0,
+    "profit": 711.0,
+    "units": 2696
+   },
+   {
+    "name": "White With Black Cats Plate",
+    "sales": 844.0,
+    "profit": -6323.0,
+    "units": 6168
+   },
+   {
+    "name": "12 Pencils Tall Tube Red Spotty",
+    "sales": 2074.0,
+    "profit": 671.0,
+    "units": 2358
+   },
+   {
+    "name": "Set Of 3 Regency Cake Tins",
+    "sales": 31119.0,
+    "profit": 9133.0,
+    "units": 6345
+   },
+   {
+    "name": "Assorted Colour Mini Cases",
+    "sales": 22098.0,
+    "profit": 5058.0,
+    "units": 3062
+   },
+   {
+    "name": "Cake Stand Victorian Filigree Large",
+    "sales": 2887.0,
+    "profit": 573.0,
+    "units": 389
+   },
+   {
+    "name": "Red Kitchen Scales",
+    "sales": 22912.0,
+    "profit": 7281.0,
+    "units": 2627
+   },
+   {
+    "name": "Set Of 2 Round Tins Camembert",
+    "sales": 2682.0,
+    "profit": 741.0,
+    "units": 940
+   },
+   {
+    "name": "Mirror, Arched Georgian",
+    "sales": 3884.0,
+    "profit": 1165.0,
+    "units": 200
+   },
+   {
+    "name": "Ring Of Roses Birthday Card",
+    "sales": 1642.0,
+    "profit": 474.0,
+    "units": 3970
+   },
+   {
+    "name": "Jumbo Bag Pink Polkadot",
+    "sales": 50082.0,
+    "profit": 15636.0,
+    "units": 25235
+   },
+   {
+    "name": "Vintage Union Jack Memoboard",
+    "sales": 45402.0,
+    "profit": 2463.0,
+    "units": 6165
+   },
+   {
+    "name": "Childs Garden Fork Pink",
+    "sales": 1882.0,
+    "profit": 583.0,
+    "units": 2183
+   },
+   {
+    "name": "Laundry 15C Metal Sign",
+    "sales": 8081.0,
+    "profit": 2356.0,
+    "units": 5641
+   },
+   {
+    "name": "Small Hammered Silver Candlepot",
+    "sales": 2649.0,
+    "profit": 850.0,
+    "units": 871
+   },
+   {
+    "name": "Set Of 2 Tins Jardin De Provence",
+    "sales": 2647.0,
+    "profit": 638.0,
+    "units": 580
+   },
+   {
+    "name": "Rain Poncho",
+    "sales": 1515.0,
+    "profit": 322.0,
+    "units": 2005
+   },
+   {
+    "name": "Small White Heart Of Wicker",
+    "sales": 8439.0,
+    "profit": 2992.0,
+    "units": 4716
+   },
+   {
+    "name": "Wrap I Love London",
+    "sales": 2821.0,
+    "profit": 709.0,
+    "units": 7184
+   },
+   {
+    "name": "Glass Honeypot Wasp Catcher",
+    "sales": 5474.0,
+    "profit": 1455.0,
+    "units": 2944
+   },
+   {
+    "name": "3D Traditional Christmas Stickers",
+    "sales": 3238.0,
+    "profit": 1085.0,
+    "units": 2461
+   },
+   {
+    "name": "Bird In Tree Mug",
+    "sales": 505.0,
+    "profit": -3558.0,
+    "units": 4643
+   },
+   {
+    "name": "Decorative Rose Bathroom Bottle",
+    "sales": 1899.0,
+    "profit": -928.0,
+    "units": 1642
+   },
+   {
+    "name": "Doiley Storage Tin",
+    "sales": 3004.0,
+    "profit": 791.0,
+    "units": 1094
+   },
+   {
+    "name": "Apron Apple Delight",
+    "sales": 2557.0,
+    "profit": 769.0,
+    "units": 516
+   },
+   {
+    "name": "Painted Metal Star With Holly Bells",
+    "sales": 2351.0,
+    "profit": -472.0,
+    "units": 2782
+   },
+   {
+    "name": "Paper Pocket Traveling Fan",
+    "sales": 1416.0,
+    "profit": 421.0,
+    "units": 10153
+   },
+   {
+    "name": "White Bell Honeycomb Paper",
+    "sales": 3886.0,
+    "profit": 1383.0,
+    "units": 2167
+   },
+   {
+    "name": "Beaded Pearl Heart White On Stick",
+    "sales": 1619.0,
+    "profit": 443.0,
+    "units": 2025
+   },
+   {
+    "name": "Red Rose And Lace C/Cover",
+    "sales": 560.0,
+    "profit": 168.0,
+    "units": 190
+   },
+   {
+    "name": "Set Of 12 Mini Loaf Baking Cases",
+    "sales": 5073.0,
+    "profit": 1510.0,
+    "units": 6134
+   },
+   {
+    "name": "Pack Of 60 Pink Paisley Cake Cases",
+    "sales": 28082.0,
+    "profit": 6498.0,
+    "units": 56061
+   },
+   {
+    "name": "Ceramic Cherry Cake Money Bank",
+    "sales": 7070.0,
+    "profit": 2140.0,
+    "units": 4857
+   },
+   {
+    "name": "Alphabet Hearts Sticker Sheet",
+    "sales": 769.0,
+    "profit": 254.0,
+    "units": 866
+   },
+   {
+    "name": "Grand Chocolatecandle",
+    "sales": 27239.0,
+    "profit": 7232.0,
+    "units": 19712
+   },
+   {
+    "name": "Bird Decoration Red Retrospot",
+    "sales": 1170.0,
+    "profit": 420.0,
+    "units": 1261
+   },
+   {
+    "name": "Charlie + Lola Red Hot Water Bottle",
+    "sales": 7699.0,
+    "profit": 916.0,
+    "units": 3285
+   },
+   {
+    "name": "Pink Kashmiri Coffee Table",
+    "sales": 1050.0,
+    "profit": 630.0,
+    "units": 20
+   },
+   {
+    "name": "Ivory Refectory Clock",
+    "sales": 2094.0,
+    "profit": 611.0,
+    "units": 213
+   },
+   {
+    "name": "White Bitty Light Chain",
+    "sales": 1057.0,
+    "profit": 256.0,
+    "units": 246
+   },
+   {
+    "name": "Lunch Bag Pink Polkadot",
+    "sales": 19501.0,
+    "profit": 5928.0,
+    "units": 11751
+   },
+   {
+    "name": "Watermelon Bath Sponge",
+    "sales": 2551.0,
+    "profit": 888.0,
+    "units": 1900
+   },
+   {
+    "name": "Kitty Pencil Erasers",
+    "sales": 593.0,
+    "profit": 203.0,
+    "units": 2652
+   },
+   {
+    "name": "French Enamel Water Basin",
+    "sales": 2400.0,
+    "profit": 560.0,
+    "units": 701
+   },
+   {
+    "name": "Ivory Cafe Hanging Lamp",
+    "sales": 1380.0,
+    "profit": 365.0,
+    "units": 116
+   },
+   {
+    "name": "6 Ribbons Rustic Charm",
+    "sales": 31513.0,
+    "profit": 11603.0,
+    "units": 17238
+   },
+   {
+    "name": "Fairy Tale Cottage Nightlight",
+    "sales": 7878.0,
+    "profit": 1959.0,
+    "units": 4336
+   },
+   {
+    "name": "Set/3 Tall Glass Candle Holder Pink",
+    "sales": 1095.0,
+    "profit": 185.0,
+    "units": 102
+   },
+   {
+    "name": "Empire Tissue Box",
+    "sales": 2486.0,
+    "profit": -296.0,
+    "units": 3179
+   },
+   {
+    "name": "Retro Plastic Elephant Tray",
+    "sales": 1294.0,
+    "profit": 330.0,
+    "units": 1619
+   },
+   {
+    "name": "Pink Oval Jewelled Mirror",
+    "sales": 1014.0,
+    "profit": 281.0,
+    "units": 176
+   },
+   {
+    "name": "Small Red Retrospot Windmill",
+    "sales": 6352.0,
+    "profit": 1878.0,
+    "units": 5113
+   },
+   {
+    "name": "Nursery A,B,C Painted Letters",
+    "sales": 2425.0,
+    "profit": 474.0,
+    "units": 413
+   },
+   {
+    "name": "English Rose Scented Hanging Flower",
+    "sales": 793.0,
+    "profit": -194.0,
+    "units": 573
+   },
+   {
+    "name": "Doughnut Lip Gloss",
+    "sales": 13696.0,
+    "profit": 4600.0,
+    "units": 10395
+   },
+   {
+    "name": "Alarm Clock Bakelike Ivory",
+    "sales": 14867.0,
+    "profit": 5150.0,
+    "units": 3702
+   },
+   {
+    "name": "Zinc Top  2 Door Wooden Shelf",
+    "sales": 1714.0,
+    "profit": -1240.0,
+    "units": 249
+   },
+   {
+    "name": "Stripes Design Monkey Doll",
+    "sales": 1764.0,
+    "profit": -644.0,
+    "units": 1349
+   },
+   {
+    "name": "Red/Cream Stripe Fringe Hammock",
+    "sales": 2663.0,
+    "profit": 787.0,
+    "units": 337
+   },
+   {
+    "name": "Red Organic Candle In Glass",
+    "sales": 670.0,
+    "profit": 110.0,
+    "units": 640
+   },
+   {
+    "name": "Turq+Red Boudicca Large Bracelet",
+    "sales": 677.0,
+    "profit": 205.0,
+    "units": 97
+   },
+   {
+    "name": "Red Rocking Horse Hand Painted",
+    "sales": 2931.0,
+    "profit": 893.0,
+    "units": 2329
+   },
+   {
+    "name": "Hanging Jam Jar T-Light Holder",
+    "sales": 24441.0,
+    "profit": 6486.0,
+    "units": 30176
+   },
+   {
+    "name": "Magnets Pack Of 4 Childhood Memory",
+    "sales": 4735.0,
+    "profit": 1200.0,
+    "units": 4040
+   },
+   {
+    "name": "Jardin Etched Glass Fruitbowl",
+    "sales": 1286.0,
+    "profit": -83.0,
+    "units": 182
+   },
+   {
+    "name": "Biscuit Tin 50'S Christmas",
+    "sales": 6681.0,
+    "profit": 2243.0,
+    "units": 2194
+   },
+   {
+    "name": "Advent Calendar Gingham Sack",
+    "sales": 13141.0,
+    "profit": 3470.0,
+    "units": 2322
+   },
+   {
+    "name": "Filigris Heart With Butterfly",
+    "sales": 13553.0,
+    "profit": 3983.0,
+    "units": 10937
+   },
+   {
+    "name": "Two Door Curio Cabinet",
+    "sales": 11113.0,
+    "profit": 3500.0,
+    "units": 853
+   },
+   {
+    "name": "Bag 125G Swirly Marbles",
+    "sales": 5646.0,
+    "profit": 1361.0,
+    "units": 14577
+   },
+   {
+    "name": "Set Of 6 T-Lights Toadstools",
+    "sales": 4087.0,
+    "profit": 1247.0,
+    "units": 1375
+   },
+   {
+    "name": "Candy Spot Tea Cosy",
+    "sales": 623.0,
+    "profit": -294.0,
+    "units": 391
+   },
+   {
+    "name": "Egg Cup Natural Chicken",
+    "sales": 1358.0,
+    "profit": 27.0,
+    "units": 1521
+   },
+   {
+    "name": "Charlotte Bag Apples Design",
+    "sales": 7742.0,
+    "profit": 2996.0,
+    "units": 7976
+   },
+   {
+    "name": "Woodland Party Bag + Sticker Set",
+    "sales": 6012.0,
+    "profit": 1784.0,
+    "units": 3660
+   },
+   {
+    "name": "Blue Paisley Pocket Book",
+    "sales": 1090.0,
+    "profit": -1972.0,
+    "units": 5145
+   },
+   {
+    "name": "Medium Chinese Style Scissor",
+    "sales": 711.0,
+    "profit": 161.0,
+    "units": 1572
+   },
+   {
+    "name": "Square Mirror Curtain",
+    "sales": 3382.0,
+    "profit": 1451.0,
+    "units": 347
+   },
+   {
+    "name": "Decorative Plant Pot With Frieze",
+    "sales": 799.0,
+    "profit": 243.0,
+    "units": 100
+   },
+   {
+    "name": "Rococo Wall Mirror White",
+    "sales": 1567.0,
+    "profit": 478.0,
+    "units": 78
+   },
+   {
+    "name": "Love Seat Antique White Metal",
+    "sales": 6210.0,
+    "profit": 2759.0,
+    "units": 58
+   },
+   {
+    "name": "Chunky Silver Necklace Pastel Flowe",
+    "sales": 937.0,
+    "profit": 290.0,
+    "units": 93
+   },
+   {
+    "name": "Gumball Monochrome Coat Rack",
+    "sales": 1963.0,
+    "profit": -529.0,
+    "units": 1447
+   },
+   {
+    "name": "Tv Dinner Tray Dolly Girl",
+    "sales": 5131.0,
+    "profit": 1343.0,
+    "units": 1093
+   },
+   {
+    "name": "S/2 Beach Hut Treasure Chests",
+    "sales": 743.0,
+    "profit": -557.0,
+    "units": 312
+   },
+   {
+    "name": "Cream Heart Card Holder",
+    "sales": 49301.0,
+    "profit": 4547.0,
+    "units": 16186
+   },
+   {
+    "name": "3 Wick Christmas Briar Candle",
+    "sales": 1083.0,
+    "profit": 343.0,
+    "units": 282
+   },
+   {
+    "name": "Potting Shed Seed Envelopes",
+    "sales": 1836.0,
+    "profit": 681.0,
+    "units": 1320
+   }
+  ]
+ },
+ "topCustomers": [
+  {
+   "customer_id": 18102,
+   "sales": 580987.0,
+   "orders": 145,
+   "segment": "Premium"
+  },
+  {
+   "customer_id": 14646,
+   "sales": 526752.0,
+   "orders": 145,
+   "segment": "Premium"
+  },
+  {
+   "customer_id": 14156,
+   "sales": 303070.0,
+   "orders": 144,
+   "segment": "Premium"
+  },
+  {
+   "customer_id": 14911,
+   "sales": 272253.0,
+   "orders": 373,
+   "segment": "Premium"
+  },
+  {
+   "customer_id": 17450,
+   "sales": 244784.0,
+   "orders": 51,
+   "segment": "Premium"
+  },
+  {
+   "customer_id": 13694,
+   "sales": 195641.0,
+   "orders": 143,
+   "segment": "Premium"
+  },
+  {
+   "customer_id": 17511,
+   "sales": 172133.0,
+   "orders": 60,
+   "segment": "Premium"
+  },
+  {
+   "customer_id": 16684,
+   "sales": 147143.0,
+   "orders": 55,
+   "segment": "Premium"
+  },
+  {
+   "customer_id": 12415,
+   "sales": 144033.0,
+   "orders": 24,
+   "segment": "Premium"
+  },
+  {
+   "customer_id": 15061,
+   "sales": 126388.0,
+   "orders": 127,
+   "segment": "Premium"
+  }
+ ],
+ "countries": [
+  {
+   "name": "United Kingdom",
+   "sales": 16522076.0,
+   "customers": 5334,
+   "orders": 36180
+  },
+  {
+   "name": "EIRE",
+   "sales": 623414.0,
+   "customers": 3,
+   "orders": 581
+  },
+  {
+   "name": "Netherlands",
+   "sales": 549773.0,
+   "customers": 22,
+   "orders": 216
+  },
+  {
+   "name": "Germany",
+   "sales": 383289.0,
+   "customers": 107,
+   "orders": 753
+  },
+  {
+   "name": "France",
+   "sales": 309194.0,
+   "customers": 93,
+   "orders": 598
+  },
+  {
+   "name": "Australia",
+   "sales": 167800.0,
+   "customers": 15,
+   "orders": 89
+  },
+  {
+   "name": "Spain",
+   "sales": 97767.0,
+   "customers": 38,
+   "orders": 144
+  },
+  {
+   "name": "Switzerland",
+   "sales": 94025.0,
+   "customers": 22,
+   "orders": 85
+  },
+  {
+   "name": "Sweden",
+   "sales": 86319.0,
+   "customers": 19,
+   "orders": 99
+  },
+  {
+   "name": "Belgium",
+   "sales": 56993.0,
+   "customers": 29,
+   "orders": 143
+  },
+  {
+   "name": "Denmark",
+   "sales": 52382.0,
+   "customers": 12,
+   "orders": 41
+  },
+  {
+   "name": "Portugal",
+   "sales": 47338.0,
+   "customers": 23,
+   "orders": 85
+  }
+ ],
+ "patterns": {
+  "weekday": [
+   {
+    "day": "Mon",
+    "sales": 3409488
+   },
+   {
+    "day": "Tue",
+    "sales": 3792750
+   },
+   {
+    "day": "Wed",
+    "sales": 3366073
+   },
+   {
+    "day": "Thu",
+    "sales": 3988065
+   },
+   {
+    "day": "Fri",
+    "sales": 2996643
+   },
+   {
+    "day": "Sat",
+    "sales": 9803
+   },
+   {
+    "day": "Sun",
+    "sales": 1785159
+   }
+  ],
+  "hourly": [
+   {
+    "hour": 6,
+    "sales": 4
+   },
+   {
+    "hour": 7,
+    "sales": 75030
+   },
+   {
+    "hour": 8,
+    "sales": 521950
+   },
+   {
+    "hour": 9,
+    "sales": 1535939
+   },
+   {
+    "hour": 10,
+    "sales": 2428673
+   },
+   {
+    "hour": 11,
+    "sales": 2403285
+   },
+   {
+    "hour": 12,
+    "sales": 2782462
+   },
+   {
+    "hour": 13,
+    "sales": 2471774
+   },
+   {
+    "hour": 14,
+    "sales": 2216272
+   },
+   {
+    "hour": 15,
+    "sales": 2214861
+   },
+   {
+    "hour": 16,
+    "sales": 1455495
+   },
+   {
+    "hour": 17,
+    "sales": 814828
+   },
+   {
+    "hour": 18,
+    "sales": 263051
+   },
+   {
+    "hour": 19,
+    "sales": 125470
+   },
+   {
+    "hour": 20,
+    "sales": 38888
+   }
+  ],
+  "heatmap": [
+   {
+    "day": "Mon",
+    "month": 1,
+    "sales": 187914
+   },
+   {
+    "day": "Mon",
+    "month": 2,
+    "sales": 205118
+   },
+   {
+    "day": "Mon",
+    "month": 3,
+    "sales": 266774
+   },
+   {
+    "day": "Mon",
+    "month": 4,
+    "sales": 208094
+   },
+   {
+    "day": "Mon",
+    "month": 5,
+    "sales": 188877
+   },
+   {
+    "day": "Mon",
+    "month": 6,
+    "sales": 234418
+   },
+   {
+    "day": "Mon",
+    "month": 7,
+    "sales": 223880
+   },
+   {
+    "day": "Mon",
+    "month": 8,
+    "sales": 188536
+   },
+   {
+    "day": "Mon",
+    "month": 9,
+    "sales": 347676
+   },
+   {
+    "day": "Mon",
+    "month": 10,
+    "sales": 405206
+   },
+   {
+    "day": "Mon",
+    "month": 11,
+    "sales": 630622
+   },
+   {
+    "day": "Mon",
+    "month": 12,
+    "sales": 322372
+   },
+   {
+    "day": "Tue",
+    "month": 1,
+    "sales": 257059
+   },
+   {
+    "day": "Tue",
+    "month": 2,
+    "sales": 212199
+   },
+   {
+    "day": "Tue",
+    "month": 3,
+    "sales": 297950
+   },
+   {
+    "day": "Tue",
+    "month": 4,
+    "sales": 221854
+   },
+   {
+    "day": "Tue",
+    "month": 5,
+    "sales": 282209
+   },
+   {
+    "day": "Tue",
+    "month": 6,
+    "sales": 280724
+   },
+   {
+    "day": "Tue",
+    "month": 7,
+    "sales": 231194
+   },
+   {
+    "day": "Tue",
+    "month": 8,
+    "sales": 277887
+   },
+   {
+    "day": "Tue",
+    "month": 9,
+    "sales": 381084
+   },
+   {
+    "day": "Tue",
+    "month": 10,
+    "sales": 381787
+   },
+   {
+    "day": "Tue",
+    "month": 11,
+    "sales": 568410
+   },
+   {
+    "day": "Tue",
+    "month": 12,
+    "sales": 400392
+   },
+   {
+    "day": "Wed",
+    "month": 1,
+    "sales": 172990
+   },
+   {
+    "day": "Wed",
+    "month": 2,
+    "sales": 171825
+   },
+   {
+    "day": "Wed",
+    "month": 3,
+    "sales": 257767
+   },
+   {
+    "day": "Wed",
+    "month": 4,
+    "sales": 216010
+   },
+   {
+    "day": "Wed",
+    "month": 5,
+    "sales": 228856
+   },
+   {
+    "day": "Wed",
+    "month": 6,
+    "sales": 297341
+   },
+   {
+    "day": "Wed",
+    "month": 7,
+    "sales": 203428
+   },
+   {
+    "day": "Wed",
+    "month": 8,
+    "sales": 287419
+   },
+   {
+    "day": "Wed",
+    "month": 9,
+    "sales": 284902
+   },
+   {
+    "day": "Wed",
+    "month": 10,
+    "sales": 336278
+   },
+   {
+    "day": "Wed",
+    "month": 11,
+    "sales": 538236
+   },
+   {
+    "day": "Wed",
+    "month": 12,
+    "sales": 371022
+   },
+   {
+    "day": "Thu",
+    "month": 1,
+    "sales": 250251
+   },
+   {
+    "day": "Thu",
+    "month": 2,
+    "sales": 203872
+   },
+   {
+    "day": "Thu",
+    "month": 3,
+    "sales": 296271
+   },
+   {
+    "day": "Thu",
+    "month": 4,
+    "sales": 273134
+   },
+   {
+    "day": "Thu",
+    "month": 5,
+    "sales": 305972
+   },
+   {
+    "day": "Thu",
+    "month": 6,
+    "sales": 274715
+   },
+   {
+    "day": "Thu",
+    "month": 7,
+    "sales": 316616
+   },
+   {
+    "day": "Thu",
+    "month": 8,
+    "sales": 325821
+   },
+   {
+    "day": "Thu",
+    "month": 9,
+    "sales": 409482
+   },
+   {
+    "day": "Thu",
+    "month": 10,
+    "sales": 413393
+   },
+   {
+    "day": "Thu",
+    "month": 11,
+    "sales": 489112
+   },
+   {
+    "day": "Thu",
+    "month": 12,
+    "sales": 429426
+   },
+   {
+    "day": "Fri",
+    "month": 1,
+    "sales": 219480
+   },
+   {
+    "day": "Fri",
+    "month": 2,
+    "sales": 156447
+   },
+   {
+    "day": "Fri",
+    "month": 3,
+    "sales": 201319
+   },
+   {
+    "day": "Fri",
+    "month": 4,
+    "sales": 153286
+   },
+   {
+    "day": "Fri",
+    "month": 5,
+    "sales": 221982
+   },
+   {
+    "day": "Fri",
+    "month": 6,
+    "sales": 205929
+   },
+   {
+    "day": "Fri",
+    "month": 7,
+    "sales": 207095
+   },
+   {
+    "day": "Fri",
+    "month": 8,
+    "sales": 175231
+   },
+   {
+    "day": "Fri",
+    "month": 9,
+    "sales": 300473
+   },
+   {
+    "day": "Fri",
+    "month": 10,
+    "sales": 416566
+   },
+   {
+    "day": "Fri",
+    "month": 11,
+    "sales": 390828
+   },
+   {
+    "day": "Fri",
+    "month": 12,
+    "sales": 348007
+   },
+   {
+    "day": "Sat",
+    "month": 12,
+    "sales": 9803
+   },
+   {
+    "day": "Sun",
+    "month": 1,
+    "sales": 114122
+   },
+   {
+    "day": "Sun",
+    "month": 2,
+    "sales": 90459
+   },
+   {
+    "day": "Sun",
+    "month": 3,
+    "sales": 115641
+   },
+   {
+    "day": "Sun",
+    "month": 4,
+    "sales": 89209
+   },
+   {
+    "day": "Sun",
+    "month": 5,
+    "sales": 155478
+   },
+   {
+    "day": "Sun",
+    "month": 6,
+    "sales": 140871
+   },
+   {
+    "day": "Sun",
+    "month": 7,
+    "sales": 138916
+   },
+   {
+    "day": "Sun",
+    "month": 8,
+    "sales": 141444
+   },
+   {
+    "day": "Sun",
+    "month": 9,
+    "sales": 170671
+   },
+   {
+    "day": "Sun",
+    "month": 10,
+    "sales": 244438
+   },
+   {
+    "day": "Sun",
+    "month": 11,
+    "sales": 246901
+   },
+   {
+    "day": "Sun",
+    "month": 12,
+    "sales": 137009
+   }
+  ]
+ },
+ "segments": {
+  "profile": [
+   {
+    "name": "Premium",
+    "customers": 1186,
+    "revenue": 12335028.2,
+    "avgRecency": 27.7,
+    "avgOrders": 19.2,
+    "avgSpend": 10400.5
+   },
+   {
+    "name": "Regular",
+    "customers": 1454,
+    "revenue": 2771075.9,
+    "avgRecency": 228.0,
+    "avgOrders": 5.1,
+    "avgSpend": 1905.8
+   },
+   {
+    "name": "Occasional",
+    "customers": 1249,
+    "revenue": 1048339.0,
+    "avgRecency": 28.4,
+    "avgOrders": 3.0,
+    "avgSpend": 839.3
+   },
+   {
+    "name": "Inactive",
+    "customers": 1963,
+    "revenue": 619414.2,
+    "avgRecency": 393.4,
+    "avgOrders": 1.4,
+    "avgSpend": 315.5
+   }
+  ],
+  "scatter": [
+   {
+    "recency_days": 172,
+    "monetary": 397.5,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 461,
+    "monetary": 429.7,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 311,
+    "monetary": 525.7,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 695,
+    "monetary": 381.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 439,
+    "monetary": 350.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 61,
+    "monetary": 202.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 568,
+    "monetary": 283.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 217,
+    "monetary": 252.5,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 375,
+    "monetary": 416.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 522,
+    "monetary": 553.9,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 262,
+    "monetary": 393.4,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 722,
+    "monetary": 424.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 79,
+    "monetary": 236.2,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 379,
+    "monetary": 282.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 405,
+    "monetary": 415.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 689,
+    "monetary": 183.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 465,
+    "monetary": 713.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 361,
+    "monetary": 539.1,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 62,
+    "monetary": 152.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 623,
+    "monetary": 219.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 107,
+    "monetary": 335.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 642,
+    "monetary": 596.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 114,
+    "monetary": 437.4,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 383,
+    "monetary": 679.0,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 449,
+    "monetary": 613.1,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 383,
+    "monetary": 342.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 423,
+    "monetary": 282.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 456,
+    "monetary": 120.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 430,
+    "monetary": 126.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 725,
+    "monetary": 157.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 253,
+    "monetary": 418.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 578,
+    "monetary": 392.4,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 204,
+    "monetary": 131.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 150,
+    "monetary": 159.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 650,
+    "monetary": 189.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 264,
+    "monetary": 159.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 98,
+    "monetary": 498.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 669,
+    "monetary": 467.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 242,
+    "monetary": 135.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 311,
+    "monetary": 154.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 107,
+    "monetary": 17.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 450,
+    "monetary": 572.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 486,
+    "monetary": 140.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 597,
+    "monetary": 451.7,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 309,
+    "monetary": 280.5,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 99,
+    "monetary": 165.0,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 721,
+    "monetary": 131.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 402,
+    "monetary": 364.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 397,
+    "monetary": 339.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 71,
+    "monetary": 243.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 207,
+    "monetary": 369.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 499,
+    "monetary": 400.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 465,
+    "monetary": 182.6,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 78,
+    "monetary": 137.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 429,
+    "monetary": 68.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 685,
+    "monetary": 307.1,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 39,
+    "monetary": 109.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 539,
+    "monetary": 243.9,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 592,
+    "monetary": 229.5,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 400,
+    "monetary": 61.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 73,
+    "monetary": 144.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 391,
+    "monetary": 504.1,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 237,
+    "monetary": 232.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 112,
+    "monetary": 113.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 61,
+    "monetary": 104.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 581,
+    "monetary": 267.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 411,
+    "monetary": 487.0,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 294,
+    "monetary": 454.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 277,
+    "monetary": 237.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 383,
+    "monetary": 1191.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 362,
+    "monetary": 135.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 466,
+    "monetary": 280.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 452,
+    "monetary": 217.0,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 401,
+    "monetary": 59.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 87,
+    "monetary": 117.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 726,
+    "monetary": 31.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 315,
+    "monetary": 689.6,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 405,
+    "monetary": 1192.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 69,
+    "monetary": 213.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 297,
+    "monetary": 826.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 176,
+    "monetary": 189.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 653,
+    "monetary": 82.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 381,
+    "monetary": 219.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 733,
+    "monetary": 436.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 303,
+    "monetary": 312.6,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 428,
+    "monetary": 435.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 529,
+    "monetary": 219.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 239,
+    "monetary": 305.7,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 395,
+    "monetary": 437.9,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 273,
+    "monetary": 516.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 488,
+    "monetary": 357.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 262,
+    "monetary": 25.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 331,
+    "monetary": 250.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 666,
+    "monetary": 79.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 133,
+    "monetary": 241.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 501,
+    "monetary": 100.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 513,
+    "monetary": 79.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 548,
+    "monetary": 161.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 736,
+    "monetary": 351.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 576,
+    "monetary": 209.6,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 366,
+    "monetary": 258.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 78,
+    "monetary": 386.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 52,
+    "monetary": 38.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 267,
+    "monetary": 177.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 415,
+    "monetary": 689.7,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 510,
+    "monetary": 221.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 423,
+    "monetary": 132.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 642,
+    "monetary": 433.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 668,
+    "monetary": 988.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 696,
+    "monetary": 332.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 731,
+    "monetary": 966.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 739,
+    "monetary": 148.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 579,
+    "monetary": 182.1,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 603,
+    "monetary": 122.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 689,
+    "monetary": 310.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 396,
+    "monetary": 75.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 120,
+    "monetary": 273.3,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 630,
+    "monetary": 241.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 376,
+    "monetary": 355.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 72,
+    "monetary": 158.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 480,
+    "monetary": 310.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 212,
+    "monetary": 612.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 512,
+    "monetary": 128.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 102,
+    "monetary": 85.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 318,
+    "monetary": 425.6,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 458,
+    "monetary": 519.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 541,
+    "monetary": 114.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 387,
+    "monetary": 329.3,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 474,
+    "monetary": 123.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 284,
+    "monetary": 94.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 543,
+    "monetary": 170.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 480,
+    "monetary": 457.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 649,
+    "monetary": 595.7,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 431,
+    "monetary": 613.1,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 692,
+    "monetary": 136.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 602,
+    "monetary": 430.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 620,
+    "monetary": 365.1,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 87,
+    "monetary": 112.1,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 297,
+    "monetary": 363.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 249,
+    "monetary": 304.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 633,
+    "monetary": 818.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 634,
+    "monetary": 403.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 241,
+    "monetary": 271.2,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 82,
+    "monetary": 345.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 492,
+    "monetary": 170.9,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 479,
+    "monetary": 1634.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 443,
+    "monetary": 860.1,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 184,
+    "monetary": 333.7,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 737,
+    "monetary": 107.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 184,
+    "monetary": 298.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 89,
+    "monetary": 303.2,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 64,
+    "monetary": 7.4,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 424,
+    "monetary": 494.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 610,
+    "monetary": 17.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 647,
+    "monetary": 842.4,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 648,
+    "monetary": 170.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 591,
+    "monetary": 231.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 239,
+    "monetary": 429.6,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 731,
+    "monetary": 234.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 434,
+    "monetary": 251.1,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 645,
+    "monetary": 367.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 464,
+    "monetary": 592.2,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 262,
+    "monetary": 605.6,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 520,
+    "monetary": 306.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 117,
+    "monetary": 524.5,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 147,
+    "monetary": 358.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 451,
+    "monetary": 124.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 257,
+    "monetary": 88.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 213,
+    "monetary": 426.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 476,
+    "monetary": 112.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 333,
+    "monetary": 135.4,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 95,
+    "monetary": 320.4,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 194,
+    "monetary": 208.6,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 209,
+    "monetary": 112.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 430,
+    "monetary": 61.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 96,
+    "monetary": 318.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 65,
+    "monetary": 332.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 732,
+    "monetary": 365.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 127,
+    "monetary": 233.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 316,
+    "monetary": 182.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 57,
+    "monetary": 216.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 462,
+    "monetary": 136.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 579,
+    "monetary": 155.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 410,
+    "monetary": 251.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 654,
+    "monetary": 186.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 562,
+    "monetary": 191.9,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 191,
+    "monetary": 443.1,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 57,
+    "monetary": 158.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 447,
+    "monetary": 161.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 587,
+    "monetary": 131.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 547,
+    "monetary": 38.9,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 133,
+    "monetary": 603.5,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 624,
+    "monetary": 175.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 333,
+    "monetary": 144.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 445,
+    "monetary": 111.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 243,
+    "monetary": 112.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 723,
+    "monetary": 338.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 134,
+    "monetary": 196.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 139,
+    "monetary": 361.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 70,
+    "monetary": 291.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 379,
+    "monetary": 207.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 375,
+    "monetary": 570.2,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 94,
+    "monetary": 64.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 726,
+    "monetary": 162.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 398,
+    "monetary": 179.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 673,
+    "monetary": 679.4,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 725,
+    "monetary": 109.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 239,
+    "monetary": 1143.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 477,
+    "monetary": 193.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 680,
+    "monetary": 422.7,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 400,
+    "monetary": 69.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 529,
+    "monetary": 297.0,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 529,
+    "monetary": 241.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 72,
+    "monetary": 224.1,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 200,
+    "monetary": 339.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 590,
+    "monetary": 341.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 428,
+    "monetary": 40.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 391,
+    "monetary": 393.6,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 99,
+    "monetary": 207.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 401,
+    "monetary": 224.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 433,
+    "monetary": 601.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 730,
+    "monetary": 327.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 153,
+    "monetary": 389.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 183,
+    "monetary": 161.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 270,
+    "monetary": 340.8,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 650,
+    "monetary": 271.3,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 424,
+    "monetary": 243.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 724,
+    "monetary": 158.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 621,
+    "monetary": 686.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 432,
+    "monetary": 917.3,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 551,
+    "monetary": 225.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 669,
+    "monetary": 134.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 394,
+    "monetary": 399.3,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 472,
+    "monetary": 271.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 192,
+    "monetary": 546.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 626,
+    "monetary": 291.5,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 375,
+    "monetary": 308.6,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 381,
+    "monetary": 385.5,
+    "segment": "Inactive",
+    "frequency": 4
+   },
+   {
+    "recency_days": 374,
+    "monetary": 330.1,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 382,
+    "monetary": 309.5,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 600,
+    "monetary": 150.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 320,
+    "monetary": 200.1,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 547,
+    "monetary": 216.4,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 409,
+    "monetary": 612.9,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 505,
+    "monetary": 3.8,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 274,
+    "monetary": 461.0,
+    "segment": "Inactive",
+    "frequency": 3
+   },
+   {
+    "recency_days": 603,
+    "monetary": 139.8,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 262,
+    "monetary": 529.4,
+    "segment": "Inactive",
+    "frequency": 2
+   },
+   {
+    "recency_days": 408,
+    "monetary": 245.2,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 731,
+    "monetary": 433.0,
+    "segment": "Inactive",
+    "frequency": 1
+   },
+   {
+    "recency_days": 54,
+    "monetary": 289.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 71,
+    "monetary": 453.6,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 32,
+    "monetary": 1154.5,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 11,
+    "monetary": 1071.9,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 12,
+    "monetary": 626.4,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 17,
+    "monetary": 409.6,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 30,
+    "monetary": 125.8,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 5,
+    "monetary": 1140.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 30,
+    "monetary": 841.2,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 2,
+    "monetary": 357.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 36,
+    "monetary": 382.9,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 32,
+    "monetary": 1086.9,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 30,
+    "monetary": 1131.8,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 1,
+    "monetary": 640.8,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 75,
+    "monetary": 1030.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 31,
+    "monetary": 1299.6,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 17,
+    "monetary": 651.4,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 15,
+    "monetary": 49.8,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 53,
+    "monetary": 412.6,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 1,
+    "monetary": 754.8,
+    "segment": "Occasional",
+    "frequency": 7
+   },
+   {
+    "recency_days": 75,
+    "monetary": 371.6,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 12,
+    "monetary": 900.5,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 43,
+    "monetary": 821.4,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 33,
+    "monetary": 148.4,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 3,
+    "monetary": 2150.0,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 38,
+    "monetary": 615.1,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 31,
+    "monetary": 276.6,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 1,
+    "monetary": 563.9,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 26,
+    "monetary": 314.4,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 37,
+    "monetary": 1259.1,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 18,
+    "monetary": 1352.8,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 15,
+    "monetary": 729.2,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 9,
+    "monetary": 678.8,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 16,
+    "monetary": 537.5,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 46,
+    "monetary": 784.6,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 6,
+    "monetary": 663.8,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 4,
+    "monetary": 1937.2,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 29,
+    "monetary": 1074.2,
+    "segment": "Occasional",
+    "frequency": 8
+   },
+   {
+    "recency_days": 11,
+    "monetary": 586.0,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 14,
+    "monetary": 1676.1,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 16,
+    "monetary": 686.2,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 54,
+    "monetary": 939.4,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 4,
+    "monetary": 935.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 52,
+    "monetary": 307.8,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 39,
+    "monetary": 692.2,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 81,
+    "monetary": 391.4,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 22,
+    "monetary": 856.0,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 19,
+    "monetary": 1711.7,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 20,
+    "monetary": 470.8,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 46,
+    "monetary": 776.6,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 55,
+    "monetary": 1175.7,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 37,
+    "monetary": 1207.6,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 12,
+    "monetary": 784.0,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 50,
+    "monetary": 599.6,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 85,
+    "monetary": 663.6,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 12,
+    "monetary": 1086.2,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 75,
+    "monetary": 482.5,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 46,
+    "monetary": 1064.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 30,
+    "monetary": 429.8,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 74,
+    "monetary": 414.2,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 66,
+    "monetary": 619.8,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 19,
+    "monetary": 632.0,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 23,
+    "monetary": 1747.5,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 18,
+    "monetary": 971.7,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 15,
+    "monetary": 947.5,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 45,
+    "monetary": 1481.4,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 52,
+    "monetary": 924.6,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 33,
+    "monetary": 1370.5,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 26,
+    "monetary": 355.1,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 11,
+    "monetary": 530.0,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 92,
+    "monetary": 547.9,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 4,
+    "monetary": 896.6,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 5,
+    "monetary": 729.3,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 57,
+    "monetary": 779.9,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 17,
+    "monetary": 1849.6,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 72,
+    "monetary": 668.4,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 23,
+    "monetary": 450.8,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 31,
+    "monetary": 834.3,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 2,
+    "monetary": 1529.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 10,
+    "monetary": 780.6,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 25,
+    "monetary": 346.1,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 11,
+    "monetary": 385.1,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 36,
+    "monetary": 316.7,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 6,
+    "monetary": 774.5,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 29,
+    "monetary": 329.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 71,
+    "monetary": 571.1,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 18,
+    "monetary": 689.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 24,
+    "monetary": 803.9,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 20,
+    "monetary": 466.7,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 6,
+    "monetary": 163.6,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 12,
+    "monetary": 2919.8,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 28,
+    "monetary": 1044.4,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 17,
+    "monetary": 1521.0,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 2,
+    "monetary": 396.5,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 34,
+    "monetary": 125.6,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 10,
+    "monetary": 799.2,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 22,
+    "monetary": 490.2,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 29,
+    "monetary": 945.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 39,
+    "monetary": 496.2,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 71,
+    "monetary": 743.5,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 6,
+    "monetary": 632.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 3,
+    "monetary": 1341.6,
+    "segment": "Occasional",
+    "frequency": 7
+   },
+   {
+    "recency_days": 25,
+    "monetary": 3114.4,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 44,
+    "monetary": 239.4,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 10,
+    "monetary": 3509.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 22,
+    "monetary": 1609.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 30,
+    "monetary": 497.5,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 44,
+    "monetary": 532.5,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 37,
+    "monetary": 399.6,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 19,
+    "monetary": 759.2,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 19,
+    "monetary": 1113.2,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 22,
+    "monetary": 149.3,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 30,
+    "monetary": 1316.1,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 30,
+    "monetary": 671.7,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 64,
+    "monetary": 943.3,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 24,
+    "monetary": 758.8,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 49,
+    "monetary": 677.7,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 5,
+    "monetary": 1918.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 10,
+    "monetary": 1030.9,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 68,
+    "monetary": 1064.3,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 17,
+    "monetary": 682.2,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 25,
+    "monetary": 135.9,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 13,
+    "monetary": 1666.8,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 24,
+    "monetary": 454.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 71,
+    "monetary": 948.9,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 39,
+    "monetary": 718.8,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 45,
+    "monetary": 313.2,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 23,
+    "monetary": 484.8,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 38,
+    "monetary": 266.9,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 43,
+    "monetary": 657.3,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 36,
+    "monetary": 183.8,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 2,
+    "monetary": 270.6,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 88,
+    "monetary": 570.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 4,
+    "monetary": 2780.2,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 44,
+    "monetary": 1378.9,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 16,
+    "monetary": 776.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 4,
+    "monetary": 304.1,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 16,
+    "monetary": 656.7,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 17,
+    "monetary": 725.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 23,
+    "monetary": 1466.3,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 3,
+    "monetary": 1793.2,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 21,
+    "monetary": 4026.4,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 17,
+    "monetary": 851.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 60,
+    "monetary": 428.9,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 17,
+    "monetary": 2062.7,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 6,
+    "monetary": 430.2,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 60,
+    "monetary": 592.5,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 21,
+    "monetary": 829.9,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 10,
+    "monetary": 774.1,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 24,
+    "monetary": 2332.7,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 24,
+    "monetary": 180.0,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 19,
+    "monetary": 371.2,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 21,
+    "monetary": 294.4,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 2,
+    "monetary": 1838.8,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 8,
+    "monetary": 1131.6,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 72,
+    "monetary": 353.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 26,
+    "monetary": 1213.2,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 19,
+    "monetary": 1260.5,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 23,
+    "monetary": 223.8,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 3,
+    "monetary": 2112.1,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 9,
+    "monetary": 922.5,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 11,
+    "monetary": 1299.5,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 46,
+    "monetary": 1048.3,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 3,
+    "monetary": 1840.1,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 6,
+    "monetary": 798.4,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 53,
+    "monetary": 917.3,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 36,
+    "monetary": 763.3,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 17,
+    "monetary": 1352.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 17,
+    "monetary": 320.5,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 18,
+    "monetary": 1422.5,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 23,
+    "monetary": 1384.9,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 8,
+    "monetary": 1791.8,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 72,
+    "monetary": 567.4,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 29,
+    "monetary": 1455.9,
+    "segment": "Occasional",
+    "frequency": 7
+   },
+   {
+    "recency_days": 18,
+    "monetary": 322.1,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 39,
+    "monetary": 1207.5,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 19,
+    "monetary": 628.4,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 41,
+    "monetary": 1425.4,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 4,
+    "monetary": 1194.7,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 25,
+    "monetary": 2213.0,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 17,
+    "monetary": 199.5,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 20,
+    "monetary": 1207.2,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 64,
+    "monetary": 496.4,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 50,
+    "monetary": 947.4,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 7,
+    "monetary": 204.0,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 25,
+    "monetary": 949.4,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 22,
+    "monetary": 957.5,
+    "segment": "Occasional",
+    "frequency": 7
+   },
+   {
+    "recency_days": 74,
+    "monetary": 551.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 16,
+    "monetary": 1418.3,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 15,
+    "monetary": 358.5,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 40,
+    "monetary": 1221.6,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 10,
+    "monetary": 194.8,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 28,
+    "monetary": 1356.3,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 16,
+    "monetary": 1212.7,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 39,
+    "monetary": 151.3,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 4,
+    "monetary": 2157.4,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 4,
+    "monetary": 1295.4,
+    "segment": "Occasional",
+    "frequency": 7
+   },
+   {
+    "recency_days": 35,
+    "monetary": 917.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 23,
+    "monetary": 423.8,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 11,
+    "monetary": 1254.6,
+    "segment": "Occasional",
+    "frequency": 7
+   },
+   {
+    "recency_days": 25,
+    "monetary": 968.8,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 6,
+    "monetary": 1387.8,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 10,
+    "monetary": 1809.6,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 10,
+    "monetary": 478.5,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 11,
+    "monetary": 214.0,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 44,
+    "monetary": 1265.2,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 5,
+    "monetary": 1105.9,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 42,
+    "monetary": 485.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 10,
+    "monetary": 344.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 19,
+    "monetary": 97.5,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 7,
+    "monetary": 363.3,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 71,
+    "monetary": 612.4,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 5,
+    "monetary": 694.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 11,
+    "monetary": 460.7,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 57,
+    "monetary": 1003.9,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 53,
+    "monetary": 533.3,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 18,
+    "monetary": 292.2,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 74,
+    "monetary": 668.0,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 2,
+    "monetary": 1418.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 23,
+    "monetary": 918.7,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 36,
+    "monetary": 343.4,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 20,
+    "monetary": 636.2,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 19,
+    "monetary": 609.9,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 60,
+    "monetary": 752.5,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 19,
+    "monetary": 870.1,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 51,
+    "monetary": 413.6,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 64,
+    "monetary": 2626.3,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 60,
+    "monetary": 1134.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 15,
+    "monetary": 1320.2,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 18,
+    "monetary": 1623.9,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 39,
+    "monetary": 206.3,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 24,
+    "monetary": 470.8,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 5,
+    "monetary": 1724.9,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 29,
+    "monetary": 277.0,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 14,
+    "monetary": 998.5,
+    "segment": "Occasional",
+    "frequency": 5
+   },
+   {
+    "recency_days": 19,
+    "monetary": 387.4,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 18,
+    "monetary": 1313.2,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 29,
+    "monetary": 547.0,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 42,
+    "monetary": 318.2,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 9,
+    "monetary": 366.2,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 27,
+    "monetary": 1267.6,
+    "segment": "Occasional",
+    "frequency": 6
+   },
+   {
+    "recency_days": 88,
+    "monetary": 356.8,
+    "segment": "Occasional",
+    "frequency": 3
+   },
+   {
+    "recency_days": 1,
+    "monetary": 2501.8,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 40,
+    "monetary": 507.7,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 52,
+    "monetary": 337.0,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 21,
+    "monetary": 1160.1,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 20,
+    "monetary": 746.8,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 8,
+    "monetary": 80.8,
+    "segment": "Occasional",
+    "frequency": 1
+   },
+   {
+    "recency_days": 19,
+    "monetary": 357.2,
+    "segment": "Occasional",
+    "frequency": 2
+   },
+   {
+    "recency_days": 17,
+    "monetary": 1249.0,
+    "segment": "Occasional",
+    "frequency": 4
+   },
+   {
+    "recency_days": 22,
+    "monetary": 10027.2,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 33,
+    "monetary": 16052.7,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 173,
+    "monetary": 9947.3,
+    "segment": "Premium",
+    "frequency": 23
+   },
+   {
+    "recency_days": 29,
+    "monetary": 5985.0,
+    "segment": "Premium",
+    "frequency": 21
+   },
+   {
+    "recency_days": 4,
+    "monetary": 1427.5,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 19,
+    "monetary": 1818.6,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 206,
+    "monetary": 9490.2,
+    "segment": "Premium",
+    "frequency": 18
+   },
+   {
+    "recency_days": 18,
+    "monetary": 2236.6,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 7,
+    "monetary": 12973.5,
+    "segment": "Premium",
+    "frequency": 35
+   },
+   {
+    "recency_days": 52,
+    "monetary": 4877.3,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 2,
+    "monetary": 50174.8,
+    "segment": "Premium",
+    "frequency": 106
+   },
+   {
+    "recency_days": 2,
+    "monetary": 7354.4,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 15,
+    "monetary": 6693.0,
+    "segment": "Premium",
+    "frequency": 24
+   },
+   {
+    "recency_days": 4,
+    "monetary": 2495.9,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 1,
+    "monetary": 3444.4,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 31,
+    "monetary": 2957.5,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 8,
+    "monetary": 1717.2,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 16,
+    "monetary": 3439.1,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 2,
+    "monetary": 8134.9,
+    "segment": "Premium",
+    "frequency": 20
+   },
+   {
+    "recency_days": 88,
+    "monetary": 6204.3,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 18,
+    "monetary": 2171.1,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 43,
+    "monetary": 6308.0,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 4,
+    "monetary": 56078.4,
+    "segment": "Premium",
+    "frequency": 84
+   },
+   {
+    "recency_days": 1,
+    "monetary": 8651.0,
+    "segment": "Premium",
+    "frequency": 38
+   },
+   {
+    "recency_days": 8,
+    "monetary": 2507.1,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 31,
+    "monetary": 3161.1,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 2,
+    "monetary": 8839.7,
+    "segment": "Premium",
+    "frequency": 24
+   },
+   {
+    "recency_days": 4,
+    "monetary": 2791.0,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 3,
+    "monetary": 1709.1,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 109,
+    "monetary": 10986.6,
+    "segment": "Premium",
+    "frequency": 16
+   },
+   {
+    "recency_days": 20,
+    "monetary": 8018.6,
+    "segment": "Premium",
+    "frequency": 17
+   },
+   {
+    "recency_days": 29,
+    "monetary": 4385.8,
+    "segment": "Premium",
+    "frequency": 20
+   },
+   {
+    "recency_days": 1,
+    "monetary": 9963.5,
+    "segment": "Premium",
+    "frequency": 23
+   },
+   {
+    "recency_days": 43,
+    "monetary": 6775.7,
+    "segment": "Premium",
+    "frequency": 19
+   },
+   {
+    "recency_days": 33,
+    "monetary": 4732.0,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 21,
+    "monetary": 4085.5,
+    "segment": "Premium",
+    "frequency": 5
+   },
+   {
+    "recency_days": 3,
+    "monetary": 3289.7,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 8,
+    "monetary": 3878.5,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 34,
+    "monetary": 3100.0,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 1,
+    "monetary": 4611.7,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 21,
+    "monetary": 3638.5,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 15,
+    "monetary": 5493.5,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 24,
+    "monetary": 4451.4,
+    "segment": "Premium",
+    "frequency": 21
+   },
+   {
+    "recency_days": 4,
+    "monetary": 25769.5,
+    "segment": "Premium",
+    "frequency": 23
+   },
+   {
+    "recency_days": 1,
+    "monetary": 107833.5,
+    "segment": "Premium",
+    "frequency": 116
+   },
+   {
+    "recency_days": 23,
+    "monetary": 10741.5,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 16,
+    "monetary": 8231.2,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 3,
+    "monetary": 7331.2,
+    "segment": "Premium",
+    "frequency": 32
+   },
+   {
+    "recency_days": 17,
+    "monetary": 5723.8,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 9,
+    "monetary": 20324.5,
+    "segment": "Premium",
+    "frequency": 21
+   },
+   {
+    "recency_days": 2,
+    "monetary": 4243.9,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 38,
+    "monetary": 7202.0,
+    "segment": "Premium",
+    "frequency": 21
+   },
+   {
+    "recency_days": 25,
+    "monetary": 3645.8,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 3,
+    "monetary": 29018.1,
+    "segment": "Premium",
+    "frequency": 57
+   },
+   {
+    "recency_days": 37,
+    "monetary": 12940.8,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 3,
+    "monetary": 9669.1,
+    "segment": "Premium",
+    "frequency": 26
+   },
+   {
+    "recency_days": 18,
+    "monetary": 5978.9,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 10,
+    "monetary": 2839.6,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 29,
+    "monetary": 3294.9,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 61,
+    "monetary": 3517.6,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 18,
+    "monetary": 3801.0,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 10,
+    "monetary": 4192.1,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 21,
+    "monetary": 5698.3,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 11,
+    "monetary": 20700.0,
+    "segment": "Premium",
+    "frequency": 17
+   },
+   {
+    "recency_days": 11,
+    "monetary": 4516.6,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 2,
+    "monetary": 14693.7,
+    "segment": "Premium",
+    "frequency": 18
+   },
+   {
+    "recency_days": 9,
+    "monetary": 6805.4,
+    "segment": "Premium",
+    "frequency": 19
+   },
+   {
+    "recency_days": 13,
+    "monetary": 8179.4,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 24,
+    "monetary": 8086.0,
+    "segment": "Premium",
+    "frequency": 22
+   },
+   {
+    "recency_days": 18,
+    "monetary": 2203.2,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 37,
+    "monetary": 2488.5,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 1,
+    "monetary": 9284.4,
+    "segment": "Premium",
+    "frequency": 38
+   },
+   {
+    "recency_days": 38,
+    "monetary": 6814.6,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 17,
+    "monetary": 8977.9,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 1,
+    "monetary": 1897.6,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 106,
+    "monetary": 5556.6,
+    "segment": "Premium",
+    "frequency": 16
+   },
+   {
+    "recency_days": 45,
+    "monetary": 4460.0,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 12,
+    "monetary": 3250.3,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 3,
+    "monetary": 4184.0,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 75,
+    "monetary": 6501.5,
+    "segment": "Premium",
+    "frequency": 18
+   },
+   {
+    "recency_days": 24,
+    "monetary": 17639.2,
+    "segment": "Premium",
+    "frequency": 78
+   },
+   {
+    "recency_days": 4,
+    "monetary": 12225.2,
+    "segment": "Premium",
+    "frequency": 55
+   },
+   {
+    "recency_days": 4,
+    "monetary": 126387.6,
+    "segment": "Premium",
+    "frequency": 127
+   },
+   {
+    "recency_days": 8,
+    "monetary": 4526.0,
+    "segment": "Premium",
+    "frequency": 4
+   },
+   {
+    "recency_days": 32,
+    "monetary": 1763.3,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 4,
+    "monetary": 4656.6,
+    "segment": "Premium",
+    "frequency": 20
+   },
+   {
+    "recency_days": 4,
+    "monetary": 12988.0,
+    "segment": "Premium",
+    "frequency": 33
+   },
+   {
+    "recency_days": 2,
+    "monetary": 22116.7,
+    "segment": "Premium",
+    "frequency": 34
+   },
+   {
+    "recency_days": 1,
+    "monetary": 57215.3,
+    "segment": "Premium",
+    "frequency": 61
+   },
+   {
+    "recency_days": 7,
+    "monetary": 17276.7,
+    "segment": "Premium",
+    "frequency": 52
+   },
+   {
+    "recency_days": 15,
+    "monetary": 11877.3,
+    "segment": "Premium",
+    "frequency": 34
+   },
+   {
+    "recency_days": 4,
+    "monetary": 3889.4,
+    "segment": "Premium",
+    "frequency": 18
+   },
+   {
+    "recency_days": 15,
+    "monetary": 3902.0,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 20,
+    "monetary": 2164.4,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 20,
+    "monetary": 2415.4,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 11,
+    "monetary": 14191.7,
+    "segment": "Premium",
+    "frequency": 30
+   },
+   {
+    "recency_days": 50,
+    "monetary": 5133.5,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 17,
+    "monetary": 11880.5,
+    "segment": "Premium",
+    "frequency": 17
+   },
+   {
+    "recency_days": 37,
+    "monetary": 2018.5,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 4,
+    "monetary": 2693.5,
+    "segment": "Premium",
+    "frequency": 20
+   },
+   {
+    "recency_days": 4,
+    "monetary": 8135.0,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 4,
+    "monetary": 2211.0,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 3,
+    "monetary": 6453.0,
+    "segment": "Premium",
+    "frequency": 18
+   },
+   {
+    "recency_days": 1,
+    "monetary": 2409.0,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 8,
+    "monetary": 3347.3,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 22,
+    "monetary": 11186.8,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 148,
+    "monetary": 6676.5,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 12,
+    "monetary": 2365.1,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 1,
+    "monetary": 6081.9,
+    "segment": "Premium",
+    "frequency": 20
+   },
+   {
+    "recency_days": 38,
+    "monetary": 2819.2,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 59,
+    "monetary": 17550.4,
+    "segment": "Premium",
+    "frequency": 16
+   },
+   {
+    "recency_days": 36,
+    "monetary": 1964.4,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 99,
+    "monetary": 6000.9,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 32,
+    "monetary": 7120.9,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 4,
+    "monetary": 2274.1,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 36,
+    "monetary": 2062.7,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 10,
+    "monetary": 2987.0,
+    "segment": "Premium",
+    "frequency": 21
+   },
+   {
+    "recency_days": 31,
+    "monetary": 26310.1,
+    "segment": "Premium",
+    "frequency": 46
+   },
+   {
+    "recency_days": 2,
+    "monetary": 5297.8,
+    "segment": "Premium",
+    "frequency": 23
+   },
+   {
+    "recency_days": 39,
+    "monetary": 4160.0,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 3,
+    "monetary": 6183.1,
+    "segment": "Premium",
+    "frequency": 26
+   },
+   {
+    "recency_days": 5,
+    "monetary": 21323.2,
+    "segment": "Premium",
+    "frequency": 58
+   },
+   {
+    "recency_days": 3,
+    "monetary": 13551.8,
+    "segment": "Premium",
+    "frequency": 33
+   },
+   {
+    "recency_days": 15,
+    "monetary": 14893.2,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 4,
+    "monetary": 4238.8,
+    "segment": "Premium",
+    "frequency": 5
+   },
+   {
+    "recency_days": 15,
+    "monetary": 13733.6,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 19,
+    "monetary": 4964.0,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 66,
+    "monetary": 6486.1,
+    "segment": "Premium",
+    "frequency": 19
+   },
+   {
+    "recency_days": 17,
+    "monetary": 2526.6,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 25,
+    "monetary": 4867.7,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 123,
+    "monetary": 7996.9,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 10,
+    "monetary": 4022.9,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 9,
+    "monetary": 6995.4,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 18,
+    "monetary": 3351.8,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 9,
+    "monetary": 1543.2,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 64,
+    "monetary": 5728.8,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 15,
+    "monetary": 1596.3,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 5,
+    "monetary": 18670.6,
+    "segment": "Premium",
+    "frequency": 36
+   },
+   {
+    "recency_days": 80,
+    "monetary": 3798.1,
+    "segment": "Premium",
+    "frequency": 26
+   },
+   {
+    "recency_days": 19,
+    "monetary": 1878.9,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 31,
+    "monetary": 6680.8,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 10,
+    "monetary": 3709.6,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 33,
+    "monetary": 4113.2,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 276,
+    "monetary": 54144.2,
+    "segment": "Premium",
+    "frequency": 55
+   },
+   {
+    "recency_days": 10,
+    "monetary": 2820.8,
+    "segment": "Premium",
+    "frequency": 16
+   },
+   {
+    "recency_days": 10,
+    "monetary": 5993.1,
+    "segment": "Premium",
+    "frequency": 17
+   },
+   {
+    "recency_days": 27,
+    "monetary": 3546.6,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 5,
+    "monetary": 3801.8,
+    "segment": "Premium",
+    "frequency": 19
+   },
+   {
+    "recency_days": 31,
+    "monetary": 2057.4,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 1,
+    "monetary": 49173.8,
+    "segment": "Premium",
+    "frequency": 322
+   },
+   {
+    "recency_days": 4,
+    "monetary": 9795.5,
+    "segment": "Premium",
+    "frequency": 38
+   },
+   {
+    "recency_days": 16,
+    "monetary": 12319.9,
+    "segment": "Premium",
+    "frequency": 18
+   },
+   {
+    "recency_days": 43,
+    "monetary": 3103.1,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 94,
+    "monetary": 2158.0,
+    "segment": "Premium",
+    "frequency": 16
+   },
+   {
+    "recency_days": 54,
+    "monetary": 4814.4,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 8,
+    "monetary": 4627.9,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 10,
+    "monetary": 5286.8,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 1,
+    "monetary": 75428.9,
+    "segment": "Premium",
+    "frequency": 110
+   },
+   {
+    "recency_days": 3,
+    "monetary": 3543.3,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 10,
+    "monetary": 2248.5,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 3,
+    "monetary": 6905.3,
+    "segment": "Premium",
+    "frequency": 29
+   },
+   {
+    "recency_days": 13,
+    "monetary": 7053.4,
+    "segment": "Premium",
+    "frequency": 17
+   },
+   {
+    "recency_days": 10,
+    "monetary": 2648.2,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 33,
+    "monetary": 4534.6,
+    "segment": "Premium",
+    "frequency": 6
+   },
+   {
+    "recency_days": 6,
+    "monetary": 4348.6,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 1,
+    "monetary": 1721.4,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 12,
+    "monetary": 8595.3,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 30,
+    "monetary": 6753.9,
+    "segment": "Premium",
+    "frequency": 21
+   },
+   {
+    "recency_days": 25,
+    "monetary": 55688.5,
+    "segment": "Premium",
+    "frequency": 58
+   },
+   {
+    "recency_days": 17,
+    "monetary": 5455.0,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 13,
+    "monetary": 2499.8,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 18,
+    "monetary": 8756.6,
+    "segment": "Premium",
+    "frequency": 5
+   },
+   {
+    "recency_days": 50,
+    "monetary": 3206.5,
+    "segment": "Premium",
+    "frequency": 16
+   },
+   {
+    "recency_days": 29,
+    "monetary": 4460.5,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 22,
+    "monetary": 6390.4,
+    "segment": "Premium",
+    "frequency": 5
+   },
+   {
+    "recency_days": 3,
+    "monetary": 5521.0,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 18,
+    "monetary": 1569.7,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 9,
+    "monetary": 8830.8,
+    "segment": "Premium",
+    "frequency": 25
+   },
+   {
+    "recency_days": 57,
+    "monetary": 6277.4,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 17,
+    "monetary": 2771.9,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 13,
+    "monetary": 1786.1,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 5,
+    "monetary": 10496.3,
+    "segment": "Premium",
+    "frequency": 26
+   },
+   {
+    "recency_days": 1,
+    "monetary": 11980.1,
+    "segment": "Premium",
+    "frequency": 23
+   },
+   {
+    "recency_days": 68,
+    "monetary": 2130.9,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 41,
+    "monetary": 1875.4,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 29,
+    "monetary": 3944.9,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 4,
+    "monetary": 195640.7,
+    "segment": "Premium",
+    "frequency": 143
+   },
+   {
+    "recency_days": 4,
+    "monetary": 5608.1,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 1,
+    "monetary": 4413.1,
+    "segment": "Premium",
+    "frequency": 17
+   },
+   {
+    "recency_days": 27,
+    "monetary": 1893.8,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 8,
+    "monetary": 1720.8,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 27,
+    "monetary": 5604.6,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 8,
+    "monetary": 5982.0,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 15,
+    "monetary": 2431.0,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 18,
+    "monetary": 3637.3,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 23,
+    "monetary": 7885.8,
+    "segment": "Premium",
+    "frequency": 17
+   },
+   {
+    "recency_days": 11,
+    "monetary": 4487.1,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 19,
+    "monetary": 2156.4,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 3,
+    "monetary": 5547.7,
+    "segment": "Premium",
+    "frequency": 16
+   },
+   {
+    "recency_days": 3,
+    "monetary": 4220.2,
+    "segment": "Premium",
+    "frequency": 16
+   },
+   {
+    "recency_days": 73,
+    "monetary": 6613.5,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 13,
+    "monetary": 3490.5,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 8,
+    "monetary": 1893.7,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 2,
+    "monetary": 9705.7,
+    "segment": "Premium",
+    "frequency": 32
+   },
+   {
+    "recency_days": 45,
+    "monetary": 4452.0,
+    "segment": "Premium",
+    "frequency": 18
+   },
+   {
+    "recency_days": 23,
+    "monetary": 2419.6,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 90,
+    "monetary": 9004.8,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 15,
+    "monetary": 11114.1,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 10,
+    "monetary": 2553.8,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 4,
+    "monetary": 9513.1,
+    "segment": "Premium",
+    "frequency": 47
+   },
+   {
+    "recency_days": 5,
+    "monetary": 8869.9,
+    "segment": "Premium",
+    "frequency": 31
+   },
+   {
+    "recency_days": 15,
+    "monetary": 3097.6,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 29,
+    "monetary": 4212.2,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 15,
+    "monetary": 2486.0,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 2,
+    "monetary": 2879.7,
+    "segment": "Premium",
+    "frequency": 5
+   },
+   {
+    "recency_days": 20,
+    "monetary": 7849.6,
+    "segment": "Premium",
+    "frequency": 20
+   },
+   {
+    "recency_days": 25,
+    "monetary": 9362.8,
+    "segment": "Premium",
+    "frequency": 21
+   },
+   {
+    "recency_days": 25,
+    "monetary": 4087.2,
+    "segment": "Premium",
+    "frequency": 5
+   },
+   {
+    "recency_days": 7,
+    "monetary": 10002.6,
+    "segment": "Premium",
+    "frequency": 26
+   },
+   {
+    "recency_days": 16,
+    "monetary": 1879.6,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 218,
+    "monetary": 12823.5,
+    "segment": "Premium",
+    "frequency": 14
+   },
+   {
+    "recency_days": 42,
+    "monetary": 32595.2,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 39,
+    "monetary": 3442.2,
+    "segment": "Premium",
+    "frequency": 7
+   },
+   {
+    "recency_days": 4,
+    "monetary": 15704.6,
+    "segment": "Premium",
+    "frequency": 116
+   },
+   {
+    "recency_days": 16,
+    "monetary": 3552.4,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 4,
+    "monetary": 23459.5,
+    "segment": "Premium",
+    "frequency": 29
+   },
+   {
+    "recency_days": 67,
+    "monetary": 4234.5,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 23,
+    "monetary": 5954.5,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 22,
+    "monetary": 2110.9,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 1,
+    "monetary": 272252.8,
+    "segment": "Premium",
+    "frequency": 373
+   },
+   {
+    "recency_days": 1,
+    "monetary": 4992.7,
+    "segment": "Premium",
+    "frequency": 25
+   },
+   {
+    "recency_days": 29,
+    "monetary": 3260.2,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 158,
+    "monetary": 16245.8,
+    "segment": "Premium",
+    "frequency": 21
+   },
+   {
+    "recency_days": 1,
+    "monetary": 2787.1,
+    "segment": "Premium",
+    "frequency": 12
+   },
+   {
+    "recency_days": 25,
+    "monetary": 4904.4,
+    "segment": "Premium",
+    "frequency": 17
+   },
+   {
+    "recency_days": 1,
+    "monetary": 8167.4,
+    "segment": "Premium",
+    "frequency": 22
+   },
+   {
+    "recency_days": 3,
+    "monetary": 8393.0,
+    "segment": "Premium",
+    "frequency": 30
+   },
+   {
+    "recency_days": 29,
+    "monetary": 1715.5,
+    "segment": "Premium",
+    "frequency": 10
+   },
+   {
+    "recency_days": 22,
+    "monetary": 6737.7,
+    "segment": "Premium",
+    "frequency": 8
+   },
+   {
+    "recency_days": 1,
+    "monetary": 2661.2,
+    "segment": "Premium",
+    "frequency": 15
+   },
+   {
+    "recency_days": 36,
+    "monetary": 1742.0,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 4,
+    "monetary": 7571.4,
+    "segment": "Premium",
+    "frequency": 18
+   },
+   {
+    "recency_days": 2,
+    "monetary": 9061.8,
+    "segment": "Premium",
+    "frequency": 23
+   },
+   {
+    "recency_days": 60,
+    "monetary": 3381.3,
+    "segment": "Premium",
+    "frequency": 9
+   },
+   {
+    "recency_days": 24,
+    "monetary": 5410.9,
+    "segment": "Premium",
+    "frequency": 11
+   },
+   {
+    "recency_days": 38,
+    "monetary": 7679.6,
+    "segment": "Premium",
+    "frequency": 27
+   },
+   {
+    "recency_days": 41,
+    "monetary": 12523.8,
+    "segment": "Premium",
+    "frequency": 35
+   },
+   {
+    "recency_days": 10,
+    "monetary": 8707.0,
+    "segment": "Premium",
+    "frequency": 13
+   },
+   {
+    "recency_days": 41,
+    "monetary": 3490.4,
+    "segment": "Premium",
+    "frequency": 19
+   },
+   {
+    "recency_days": 4,
+    "monetary": 20736.2,
+    "segment": "Premium",
+    "frequency": 51
+   },
+   {
+    "recency_days": 89,
+    "monetary": 4287.9,
+    "segment": "Regular",
+    "frequency": 10
+   },
+   {
+    "recency_days": 78,
+    "monetary": 2675.4,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 477,
+    "monetary": 996.6,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 113,
+    "monetary": 827.7,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 165,
+    "monetary": 470.8,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 74,
+    "monetary": 1153.6,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 603,
+    "monetary": 781.6,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 85,
+    "monetary": 2289.2,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 574,
+    "monetary": 2305.6,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 277,
+    "monetary": 2164.2,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 114,
+    "monetary": 2864.7,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 232,
+    "monetary": 3637.6,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 386,
+    "monetary": 1361.3,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 306,
+    "monetary": 865.2,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 90,
+    "monetary": 1444.6,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 275,
+    "monetary": 1190.0,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 291,
+    "monetary": 4848.0,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 415,
+    "monetary": 1136.4,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 219,
+    "monetary": 939.5,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 212,
+    "monetary": 4678.9,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 360,
+    "monetary": 2578.3,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 87,
+    "monetary": 2594.6,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 59,
+    "monetary": 1146.5,
+    "segment": "Regular",
+    "frequency": 9
+   },
+   {
+    "recency_days": 407,
+    "monetary": 1027.2,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 283,
+    "monetary": 875.9,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 375,
+    "monetary": 1677.0,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 73,
+    "monetary": 3373.6,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 233,
+    "monetary": 3015.2,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 364,
+    "monetary": 773.0,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 147,
+    "monetary": 1220.4,
+    "segment": "Regular",
+    "frequency": 1
+   },
+   {
+    "recency_days": 197,
+    "monetary": 3371.4,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 71,
+    "monetary": 875.2,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 145,
+    "monetary": 2111.9,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 149,
+    "monetary": 4160.8,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 78,
+    "monetary": 768.9,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 410,
+    "monetary": 1154.4,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 68,
+    "monetary": 1046.6,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 104,
+    "monetary": 3236.4,
+    "segment": "Regular",
+    "frequency": 9
+   },
+   {
+    "recency_days": 71,
+    "monetary": 1301.8,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 255,
+    "monetary": 986.6,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 628,
+    "monetary": 1223.9,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 281,
+    "monetary": 1387.6,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 170,
+    "monetary": 671.0,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 563,
+    "monetary": 3269.1,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 105,
+    "monetary": 1553.1,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 393,
+    "monetary": 1000.9,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 680,
+    "monetary": 1676.6,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 498,
+    "monetary": 883.7,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 437,
+    "monetary": 1179.4,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 428,
+    "monetary": 1199.3,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 157,
+    "monetary": 1272.2,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 145,
+    "monetary": 1932.4,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 78,
+    "monetary": 3566.6,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 60,
+    "monetary": 1193.5,
+    "segment": "Regular",
+    "frequency": 10
+   },
+   {
+    "recency_days": 96,
+    "monetary": 2237.1,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 131,
+    "monetary": 675.6,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 604,
+    "monetary": 1006.5,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 71,
+    "monetary": 3229.2,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 396,
+    "monetary": 1254.2,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 211,
+    "monetary": 2046.3,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 43,
+    "monetary": 4359.3,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 199,
+    "monetary": 949.9,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 95,
+    "monetary": 1023.1,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 282,
+    "monetary": 623.5,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 240,
+    "monetary": 904.2,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 373,
+    "monetary": 1055.0,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 270,
+    "monetary": 1509.3,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 44,
+    "monetary": 2824.7,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 236,
+    "monetary": 946.7,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 135,
+    "monetary": 3907.5,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 199,
+    "monetary": 964.7,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 40,
+    "monetary": 1852.2,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 550,
+    "monetary": 10396.5,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 464,
+    "monetary": 1275.8,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 452,
+    "monetary": 1220.9,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 213,
+    "monetary": 3625.4,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 70,
+    "monetary": 3761.9,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 119,
+    "monetary": 6520.3,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 143,
+    "monetary": 3039.0,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 211,
+    "monetary": 9341.3,
+    "segment": "Regular",
+    "frequency": 1
+   },
+   {
+    "recency_days": 71,
+    "monetary": 1033.0,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 169,
+    "monetary": 790.0,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 77,
+    "monetary": 1948.2,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 333,
+    "monetary": 3330.0,
+    "segment": "Regular",
+    "frequency": 13
+   },
+   {
+    "recency_days": 422,
+    "monetary": 785.4,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 61,
+    "monetary": 2749.6,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 61,
+    "monetary": 2657.8,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 96,
+    "monetary": 2064.4,
+    "segment": "Regular",
+    "frequency": 9
+   },
+   {
+    "recency_days": 238,
+    "monetary": 780.4,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 361,
+    "monetary": 548.8,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 365,
+    "monetary": 930.7,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 128,
+    "monetary": 1357.5,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 469,
+    "monetary": 2215.8,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 216,
+    "monetary": 472.2,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 606,
+    "monetary": 2622.5,
+    "segment": "Regular",
+    "frequency": 1
+   },
+   {
+    "recency_days": 429,
+    "monetary": 1194.9,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 201,
+    "monetary": 851.4,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 256,
+    "monetary": 1764.7,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 156,
+    "monetary": 3270.8,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 40,
+    "monetary": 1278.8,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 305,
+    "monetary": 748.7,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 246,
+    "monetary": 1015.2,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 90,
+    "monetary": 2624.4,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 403,
+    "monetary": 1433.3,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 39,
+    "monetary": 1274.3,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 421,
+    "monetary": 2052.7,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 154,
+    "monetary": 2999.0,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 634,
+    "monetary": 2282.3,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 113,
+    "monetary": 796.4,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 414,
+    "monetary": 1386.1,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 158,
+    "monetary": 1971.4,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 118,
+    "monetary": 2071.7,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 109,
+    "monetary": 2064.7,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 274,
+    "monetary": 972.0,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 501,
+    "monetary": 1310.3,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 51,
+    "monetary": 2025.7,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 115,
+    "monetary": 653.4,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 421,
+    "monetary": 2766.4,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 54,
+    "monetary": 1132.6,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 286,
+    "monetary": 594.9,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 246,
+    "monetary": 1291.2,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 200,
+    "monetary": 969.1,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 117,
+    "monetary": 973.9,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 133,
+    "monetary": 4481.8,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 78,
+    "monetary": 3069.9,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 68,
+    "monetary": 2247.7,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 81,
+    "monetary": 2402.7,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 225,
+    "monetary": 792.2,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 212,
+    "monetary": 1544.0,
+    "segment": "Regular",
+    "frequency": 10
+   },
+   {
+    "recency_days": 174,
+    "monetary": 1076.3,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 65,
+    "monetary": 1370.8,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 389,
+    "monetary": 891.0,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 107,
+    "monetary": 625.3,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 59,
+    "monetary": 1951.8,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 416,
+    "monetary": 1099.8,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 366,
+    "monetary": 2062.2,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 66,
+    "monetary": 2026.1,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 134,
+    "monetary": 1508.1,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 51,
+    "monetary": 1929.7,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 352,
+    "monetary": 865.2,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 411,
+    "monetary": 1015.7,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 506,
+    "monetary": 2956.6,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 211,
+    "monetary": 3246.4,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 154,
+    "monetary": 565.2,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 402,
+    "monetary": 828.2,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 414,
+    "monetary": 638.5,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 65,
+    "monetary": 2416.9,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 540,
+    "monetary": 1511.9,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 169,
+    "monetary": 1142.0,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 163,
+    "monetary": 1594.2,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 75,
+    "monetary": 1067.5,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 58,
+    "monetary": 3751.8,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 320,
+    "monetary": 9443.0,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 373,
+    "monetary": 818.8,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 469,
+    "monetary": 515.0,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 72,
+    "monetary": 3605.2,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 95,
+    "monetary": 1455.3,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 185,
+    "monetary": 1180.2,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 366,
+    "monetary": 873.3,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 50,
+    "monetary": 1952.2,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 156,
+    "monetary": 688.2,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 390,
+    "monetary": 944.8,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 382,
+    "monetary": 1289.4,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 408,
+    "monetary": 740.8,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 299,
+    "monetary": 4756.7,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 509,
+    "monetary": 2869.2,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 634,
+    "monetary": 1439.6,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 449,
+    "monetary": 1269.4,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 239,
+    "monetary": 5988.8,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 411,
+    "monetary": 5400.5,
+    "segment": "Regular",
+    "frequency": 12
+   },
+   {
+    "recency_days": 64,
+    "monetary": 1673.5,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 138,
+    "monetary": 3915.0,
+    "segment": "Regular",
+    "frequency": 12
+   },
+   {
+    "recency_days": 611,
+    "monetary": 798.0,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 32,
+    "monetary": 3076.1,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 417,
+    "monetary": 800.2,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 69,
+    "monetary": 1179.5,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 257,
+    "monetary": 1021.5,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 218,
+    "monetary": 1047.3,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 185,
+    "monetary": 965.4,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 157,
+    "monetary": 1019.5,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 139,
+    "monetary": 868.8,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 565,
+    "monetary": 10877.2,
+    "segment": "Regular",
+    "frequency": 1
+   },
+   {
+    "recency_days": 185,
+    "monetary": 609.3,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 122,
+    "monetary": 645.7,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 124,
+    "monetary": 572.3,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 376,
+    "monetary": 1125.0,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 554,
+    "monetary": 841.2,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 365,
+    "monetary": 1160.0,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 423,
+    "monetary": 3698.0,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 369,
+    "monetary": 4292.6,
+    "segment": "Regular",
+    "frequency": 10
+   },
+   {
+    "recency_days": 106,
+    "monetary": 1521.0,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 114,
+    "monetary": 4487.3,
+    "segment": "Regular",
+    "frequency": 11
+   },
+   {
+    "recency_days": 78,
+    "monetary": 1788.4,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 192,
+    "monetary": 664.0,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 80,
+    "monetary": 2132.1,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 110,
+    "monetary": 1093.5,
+    "segment": "Regular",
+    "frequency": 9
+   },
+   {
+    "recency_days": 32,
+    "monetary": 4387.6,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 85,
+    "monetary": 1103.4,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 247,
+    "monetary": 962.9,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 581,
+    "monetary": 1593.8,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 124,
+    "monetary": 1579.8,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 53,
+    "monetary": 3611.0,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 242,
+    "monetary": 3216.8,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 77,
+    "monetary": 2287.2,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 237,
+    "monetary": 1527.6,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 127,
+    "monetary": 3378.4,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 463,
+    "monetary": 628.4,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 57,
+    "monetary": 1492.2,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 54,
+    "monetary": 1363.6,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 576,
+    "monetary": 4536.6,
+    "segment": "Regular",
+    "frequency": 8
+   },
+   {
+    "recency_days": 50,
+    "monetary": 903.1,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 87,
+    "monetary": 2556.8,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 317,
+    "monetary": 1693.9,
+    "segment": "Regular",
+    "frequency": 1
+   },
+   {
+    "recency_days": 179,
+    "monetary": 772.4,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 236,
+    "monetary": 646.6,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 505,
+    "monetary": 2297.7,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 519,
+    "monetary": 1534.2,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 173,
+    "monetary": 765.6,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 509,
+    "monetary": 4336.0,
+    "segment": "Regular",
+    "frequency": 13
+   },
+   {
+    "recency_days": 312,
+    "monetary": 946.5,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 57,
+    "monetary": 1555.3,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 66,
+    "monetary": 1200.2,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 214,
+    "monetary": 702.6,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 170,
+    "monetary": 2027.8,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 116,
+    "monetary": 1706.9,
+    "segment": "Regular",
+    "frequency": 1
+   },
+   {
+    "recency_days": 482,
+    "monetary": 1892.5,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 53,
+    "monetary": 1800.1,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 59,
+    "monetary": 2437.3,
+    "segment": "Regular",
+    "frequency": 9
+   },
+   {
+    "recency_days": 422,
+    "monetary": 1552.4,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 610,
+    "monetary": 1240.2,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 57,
+    "monetary": 1616.5,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 65,
+    "monetary": 2093.9,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 243,
+    "monetary": 527.8,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 88,
+    "monetary": 1013.2,
+    "segment": "Regular",
+    "frequency": 3
+   },
+   {
+    "recency_days": 198,
+    "monetary": 415.9,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 74,
+    "monetary": 815.9,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 176,
+    "monetary": 837.0,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 188,
+    "monetary": 1514.8,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 112,
+    "monetary": 699.4,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 376,
+    "monetary": 977.3,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 355,
+    "monetary": 1580.5,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 257,
+    "monetary": 1453.7,
+    "segment": "Regular",
+    "frequency": 6
+   },
+   {
+    "recency_days": 432,
+    "monetary": 1503.6,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 234,
+    "monetary": 1824.1,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 59,
+    "monetary": 1724.7,
+    "segment": "Regular",
+    "frequency": 7
+   },
+   {
+    "recency_days": 155,
+    "monetary": 5375.7,
+    "segment": "Regular",
+    "frequency": 2
+   },
+   {
+    "recency_days": 382,
+    "monetary": 796.9,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 128,
+    "monetary": 1806.9,
+    "segment": "Regular",
+    "frequency": 5
+   },
+   {
+    "recency_days": 67,
+    "monetary": 871.4,
+    "segment": "Regular",
+    "frequency": 4
+   },
+   {
+    "recency_days": 572,
+    "monetary": 2559.0,
+    "segment": "Regular",
+    "frequency": 2
+   }
+  ]
+ },
+ "forecast": [
+  {
+   "month": "Dec 09",
+   "sales": 796442.0,
+   "fitted": 777372.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Jan 10",
+   "sales": 608637.0,
+   "fitted": 592273.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Feb 10",
+   "sales": 532137.0,
+   "fitted": 511326.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Mar 10",
+   "sales": 746015.0,
+   "fitted": 709227.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Apr 10",
+   "sales": 646233.0,
+   "fitted": 572159.0,
+   "kind": "actual"
+  },
+  {
+   "month": "May 10",
+   "sales": 643474.0,
+   "fitted": 683052.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Jun 10",
+   "sales": 696439.0,
+   "fitted": 708365.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Jul 10",
+   "sales": 632984.0,
+   "fitted": 651929.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Aug 10",
+   "sales": 672141.0,
+   "fitted": 689534.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Sep 10",
+   "sales": 865974.0,
+   "fitted": 938509.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Oct 10",
+   "sales": 1094358.0,
+   "fitted": 1090200.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Nov 10",
+   "sales": 1412531.0,
+   "fitted": 1423419.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Dec 10",
+   "sales": 775572.0,
+   "fitted": 794642.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Jan 11",
+   "sales": 593178.0,
+   "fitted": 609543.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Feb 11",
+   "sales": 507783.0,
+   "fitted": 528595.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Mar 11",
+   "sales": 689708.0,
+   "fitted": 726496.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Apr 11",
+   "sales": 515355.0,
+   "fitted": 589429.0,
+   "kind": "actual"
+  },
+  {
+   "month": "May 11",
+   "sales": 739900.0,
+   "fitted": 700322.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Jun 11",
+   "sales": 737559.0,
+   "fitted": 725634.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Jul 11",
+   "sales": 688145.0,
+   "fitted": 669199.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Aug 11",
+   "sales": 724197.0,
+   "fitted": 706803.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Sep 11",
+   "sales": 1028314.0,
+   "fitted": 955779.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Oct 11",
+   "sales": 1103311.0,
+   "fitted": 1107469.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Nov 11",
+   "sales": 1451576.0,
+   "fitted": 1440688.0,
+   "kind": "actual"
+  },
+  {
+   "month": "Dec 11",
+   "sales": null,
+   "fitted": 811911.0,
+   "kind": "forecast"
+  },
+  {
+   "month": "Jan 12",
+   "sales": null,
+   "fitted": 626812.0,
+   "kind": "forecast"
+  },
+  {
+   "month": "Feb 12",
+   "sales": null,
+   "fitted": 545864.0,
+   "kind": "forecast"
+  }
+ ],
+ "inventory": {
+  "movement": [
+   {
+    "name": "Fast",
+    "products": 812,
+    "revenue": 11525018.0
+   },
+   {
+    "name": "Medium",
+    "products": 999,
+    "revenue": 4605070.0
+   },
+   {
+    "name": "Slow",
+    "products": 1344,
+    "revenue": 1586153.0
+   },
+   {
+    "name": "Dormant",
+    "products": 1551,
+    "revenue": 1631741.0
+   }
+  ],
+  "fastest": [
+   {
+    "description": "Rabbit Night Light",
+    "category": "Lighting",
+    "sales_velocity": 1015.0,
+    "units_sold": 30739
+   },
+   {
+    "description": "World War 2 Gliders Asstd Designs",
+    "category": "Home Decor",
+    "sales_velocity": 1008.1,
+    "units_sold": 106139
+   },
+   {
+    "description": "Bicycle Puncture Repair Kit",
+    "category": "Other",
+    "sales_velocity": 931.5,
+    "units_sold": 1863
+   },
+   {
+    "description": "Jumbo Bag Red Retrospot",
+    "category": "Bags & Accessories",
+    "sales_velocity": 921.7,
+    "units_sold": 97176
+   },
+   {
+    "description": "Pack Of 72 Retrospot Cake Cases",
+    "category": "Kitchen & Dining",
+    "sales_velocity": 901.2,
+    "units_sold": 94884
+   },
+   {
+    "description": "White Hanging Heart T-Light Holder",
+    "category": "Candles & Fragrance",
+    "sales_velocity": 898.4,
+    "units_sold": 94719
+   },
+   {
+    "description": "Small Popcorn Holder",
+    "category": "Other",
+    "sales_velocity": 839.4,
+    "units_sold": 88499
+   },
+   {
+    "description": "Classic Bicycle Clips",
+    "category": "Other",
+    "sales_velocity": 820.0,
+    "units_sold": 1640
+   },
+   {
+    "description": "Jumbo Bag Paisley Park",
+    "category": "Bags & Accessories",
+    "sales_velocity": 780.9,
+    "units_sold": 5020
+   },
+   {
+    "description": "Vintage Doily Jumbo Bag Red",
+    "category": "Bags & Accessories",
+    "sales_velocity": 764.0,
+    "units_sold": 4802
+   }
+  ],
+  "restock": [
+   {
+    "description": "Rabbit Night Light",
+    "category": "Lighting",
+    "sales_velocity": 1015.0,
+    "units_sold": 30739,
+    "days_since_sale": 0
+   },
+   {
+    "description": "World War 2 Gliders Asstd Designs",
+    "category": "Home Decor",
+    "sales_velocity": 1008.1,
+    "units_sold": 106139,
+    "days_since_sale": 0
+   },
+   {
+    "description": "Bicycle Puncture Repair Kit",
+    "category": "Other",
+    "sales_velocity": 931.5,
+    "units_sold": 1863,
+    "days_since_sale": 0
+   },
+   {
+    "description": "Jumbo Bag Red Retrospot",
+    "category": "Bags & Accessories",
+    "sales_velocity": 921.7,
+    "units_sold": 97176,
+    "days_since_sale": 0
+   },
+   {
+    "description": "Pack Of 72 Retrospot Cake Cases",
+    "category": "Kitchen & Dining",
+    "sales_velocity": 901.2,
+    "units_sold": 94884,
+    "days_since_sale": 0
+   },
+   {
+    "description": "White Hanging Heart T-Light Holder",
+    "category": "Candles & Fragrance",
+    "sales_velocity": 898.4,
+    "units_sold": 94719,
+    "days_since_sale": 0
+   },
+   {
+    "description": "Small Popcorn Holder",
+    "category": "Other",
+    "sales_velocity": 839.4,
+    "units_sold": 88499,
+    "days_since_sale": 0
+   },
+   {
+    "description": "Classic Bicycle Clips",
+    "category": "Other",
+    "sales_velocity": 820.0,
+    "units_sold": 1640,
+    "days_since_sale": 0
+   },
+   {
+    "description": "Jumbo Bag Paisley Park",
+    "category": "Bags & Accessories",
+    "sales_velocity": 780.9,
+    "units_sold": 5020,
+    "days_since_sale": 0
+   },
+   {
+    "description": "Vintage Doily Jumbo Bag Red",
+    "category": "Bags & Accessories",
+    "sales_velocity": 764.0,
+    "units_sold": 4802,
+    "days_since_sale": 0
+   },
+   {
+    "description": "Assorted Colour Bird Ornament",
+    "category": "Garden & Outdoor",
+    "sales_velocity": 759.6,
+    "units_sold": 80082,
+    "days_since_sale": 0
+   },
+   {
+    "description": "Jumbo Bag Vintage Doily",
+    "category": "Bags & Accessories",
+    "sales_velocity": 654.1,
+    "units_sold": 20185,
+    "days_since_sale": 0
+   }
+  ],
+  "deadStock": 1551,
+  "totalProducts": 4706
+ },
+ "discountBands": [
+  {
+   "band": "None",
+   "margin": 0.3733,
+   "sales": 12460449
+  },
+  {
+   "band": "0-10%",
+   "margin": 0.2376,
+   "sales": 856537
+  },
+  {
+   "band": "10-20%",
+   "margin": 0.1822,
+   "sales": 4391494
+  },
+  {
+   "band": "20-30%",
+   "margin": 0.0816,
+   "sales": 592835
+  },
+  {
+   "band": "30-50%",
+   "margin": -0.1697,
+   "sales": 657471
+  },
+  {
+   "band": "50%+",
+   "margin": -1.6531,
+   "sales": 389195
+  }
+ ],
+ "stats": {
+  "meanOrder": 489.69,
+  "medianOrder": 301.2,
+  "stdOrder": 1119.69,
+  "ci95": [
+   478.65,
+   500.73
+  ]
+ },
+ "models": {
+  "forecast": {
+   "mape": 0.065,
+   "mae": 70460,
+   "r2Train": 0.977,
+   "algorithm": "Linear Regression (trend + monthly seasonality)"
+  },
+  "classification": {
+   "logistic": {
+    "accuracy": 0.95,
+    "f1": 0.974
+   },
+   "tree": {
+    "accuracy": 0.981,
+    "f1": 0.99
+   },
+   "algorithm": "Decision Tree (max_depth=6) vs Logistic Regression"
+  },
+  "hypothesis": [
+   {
+    "name": "T-test: discounts vs profit",
+    "pValue": "3.1e-31",
+    "verdict": "High discounts significantly reduce line profit"
+   },
+   {
+    "name": "ANOVA: sales across categories",
+    "pValue": "8.0e-315",
+    "verdict": "Categories have genuinely different revenue profiles"
+   },
+   {
+    "name": "Chi-square: category vs segment",
+    "pValue": "< 1e-300",
+    "verdict": "Customer segments buy distinct category mixes"
+   }
+  ]
+ }
+}

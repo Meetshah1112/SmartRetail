@@ -1,0 +1,72 @@
+{
+  "config": "{\"version\":\"5.43\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\"}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Executive Dashboard",
+      "displayOption": 1,
+      "filters": "[]",
+      "name": "a1e2c3d4b5f6a7b8c9d0",
+      "visualContainers": [],
+      "height": 720.00,
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Sales Dashboard",
+      "displayOption": 1,
+      "filters": "[]",
+      "name": "b2f3d4e5c6a7b8c9d0e1",
+      "visualContainers": [],
+      "height": 720.00,
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Customer Dashboard",
+      "displayOption": 1,
+      "filters": "[]",
+      "name": "c3a4e5f6d7b8c9d0e1f2",
+      "visualContainers": [],
+      "height": 720.00,
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Inventory Dashboard",
+      "displayOption": 1,
+      "filters": "[]",
+      "name": "d4b5f6a7e8c9d0e1f2a3",
+      "visualContainers": [],
+      "height": 720.00,
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Profit Dashboard",
+      "displayOption": 1,
+      "filters": "[]",
+      "name": "e5c6a7b8f9d0e1f2a3b4",
+      "visualContainers": [],
+      "height": 720.00,
+      "width": 1280.00
+    }
+  ]
+}

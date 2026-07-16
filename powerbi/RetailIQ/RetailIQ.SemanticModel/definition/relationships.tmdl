@@ -1,0 +1,11 @@
+relationship FactSales_DimProduct
+	fromColumn: fact_sales.stock_code
+	toColumn: dim_product.stock_code
+
+relationship FactSales_DimCustomer
+	fromColumn: fact_sales.customer_id
+	toColumn: dim_customer.customer_id
+
+relationship FactSales_DimDate
+	fromColumn: fact_sales.date
+	toColumn: dim_date.date
